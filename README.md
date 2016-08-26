@@ -35,3 +35,7 @@ export PATH=/path/to/miniconda3/bin:$PATH && jupyter notebook
 ```
 
 Follow the instructions in the notebook. When you're done, push your pipeline configuration back to the repo for reference purposes. Thanks. Enjoy!
+
+## Resources
+
+Most of the documents related to the project can be found in this [Google Drive folder](https://drive.google.com/drive/folders/0BwvForvqRxfTUnB2SG54cEFSNlk).
