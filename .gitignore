@@ -5,3 +5,4 @@ samples/
 *.zip
 .ipynb_*
 .csv#
+!objeto_del_gasto.catalog

@@ -1,0 +1,352 @@
+PARTIDA_GENERICA,DESCRIPCION
+111,Dietas
+112,Haberes
+113,Sueldos base al personal permanente
+114,Remuneraciones por adscripción laboral en el extranjero
+121,Honorarios asimilables a salarios
+122,Sueldos base al personal eventual
+123,Retribuciones por servicios de carácter social
+124,Retribución a los representantes de los trabajadores y de los patrones en la Junta de Conciliación y Arbitraje
+131,Primas por años de servicios efectivos prestados
+132,"Primas de vacaciones, dominical y gratificación de fin de año"
+133,Horas extraordinarias
+134,Compensaciones
+135,Sobrehaberes
+136,"Asignaciones de técnico, de mando, por comisión, de vuelo y de técnico especial"
+137,Honorarios especiales
+138,Participaciones por vigilancia en el cumplimiento de las leyes y custodia de valores
+141,Aportaciones de seguridad social
+142,Aportaciones a fondos de vivienda
+143,Aportaciones al sistema para el retiro
+144,Aportaciones para seguros
+151,Cuotas para el fondo de ahorro y fondo de trabajo
+152,Indemnizaciones
+153,Prestaciones y haberes de retiro
+154,Prestaciones contractuales
+155,Apoyos a la capacitación de los servidores públicos
+159,Otras prestaciones sociales y económicas
+161,"Previsiones de carácter laboral, económica y de seguridad social"
+171,Estímulos
+172,Recompensas
+211,"Materiales, útiles y equipos menores de oficina"
+212,Materiales y útiles de impresión y reproducción
+217,Materiales y útiles de enseñanza
+218,Materiales para el registro e identificación de bienes y personas
+221,Productos alimenticios para personas
+222,Productos alimenticios para animales
+223,Utensilios para el servicio de alimentación
+231,"Productos alimenticios, agropecuarios y forestales adquiridos como materia prima"
+232,Insumos textiles adquiridos como materia prima
+233,"Productos de papel, cartón e impresos adquiridos como materia prima"
+234,"Combustibles, lubricantes, aditivos, carbón y sus derivados adquiridos como materia prima"
+235,"Productos químicos, farmacéuticos y de laboratorio adquiridos como materia prima"
+236,Productos metálicos y a base de minerales no metálicos adquiridos como materia prima
+237,"Productos de cuero, piel, plástico y hule adquiridos como materia prima"
+238,Mercancías adquiridas para su comercialización
+239,Otros productos adquiridos como materia prima
+241,Productos minerales no metálicos
+242,Cemento y productos de concreto
+243,"Cal, yeso y productos de yeso"
+244,Madera y productos de madera
+245,Vidrio y productos de vidrio
+246,Material eléctrico y electrónico
+247,Artículos metálicos para la construcción
+248,Materiales complementarios
+249,Otros materiales y artículos de construcción y reparación
+251,Productos químicos básicos
+252,"Fertilizantes, pesticidas y otros agroquímicos"
+253,Medicinas y productos farmacéuticos
+254,"Materiales, accesorios y suministros médicos"
+255,"Materiales, accesorios y suministros de laboratorio"
+256,"Fibras sintéticas, hules, plásticos y derivados"
+259,Otros productos químicos
+261,"Combustibles, lubricantes y aditivos"
+262,Carbón y sus derivados
+271,Vestuario y uniformes
+272,Prendas de seguridad y protección personal
+273,Artículos deportivos
+274,Productos textiles
+275,"Blancos y otros productos textiles, excepto prendas de vestir"
+281,Sustancias y materiales explosivos
+282,Materiales de seguridad pública
+283,Prendas de protección para seguridad pública y nacional
+291,Herramientas menores
+292,Refacciones y accesorios menores de edificios
+293,"Refacciones y accesorios menores de mobiliario y equipo de administración, educacional y recreativo"
+294,Refacciones y accesorios menores de equipo de cómputo y tecnologías de la información
+295,Refacciones y accesorios menores de equipo e instrumental médico y de laboratorio
+296,Refacciones y accesorios menores de equipo de transporte
+297,Refacciones y accesorios menores de equipo de defensa y seguridad
+298,Refacciones y accesorios menores de maquinaria y otros equipos
+299,Refacciones y accesorios menores otros bienes muebles
+311,Energía eléctrica
+312,Gas
+313,Agua
+314,Telefonía tradicional
+315,Telefonía celular
+316,Servicios de telecomunicaciones y satélites
+317,"Servicios de acceso de Internet, redes y procesamiento de información"
+318,Servicios postales y telegráficos
+319,Servicios integrales y otros servicios
+321,Arrendamiento de terrenos
+322,Arrendamiento de edificios
+323,"Arrendamiento de mobiliario y equipo de administración, educacional y recreativo"
+324,Arrendamiento de equipo e instrumental médico y de laboratorio
+325,Arrendamiento de equipo de transporte
+326,"Arrendamiento de maquinaria, otros equipos y herramientas"
+327,Arrendamiento de activos intangibles
+328,Arrendamiento financiero
+329,Otros arrendamientos
+331,"Servicios legales, de contabilidad, auditoría y relacionados"
+332,"Servicios de diseño, arquitectura, ingeniería y actividades relacionadas"
+333,"Servicios de consultoría administrativa, procesos, técnica y en tecnologías de la información"
+334,Servicios de capacitación
+335,Servicios de investigación científica y desarrollo
+336,"Servicios de apoyo administrativo, traducción, fotocopiado e impresión"
+337,Servicios de protección y seguridad
+338,Servicios de vigilancia
+339,"Servicios profesionales, científicos y técnicos integrales"
+341,Servicios financieros y bancarios
+342,"Servicios de cobranza, investigación crediticia y similar"
+343,"Servicios de recaudación, traslado y custodia de valores"
+344,Seguros de responsabilidad patrimonial y fianzas
+345,Seguro de bienes patrimoniales
+346,"Almacenaje, envase y embalaje"
+347,Fletes y maniobras
+348,Comisiones por ventas
+349,"Servicios financieros, bancarios y comerciales integrales"
+351,Conservación y mantenimiento menor de inmuebles
+352,"Instalación, reparación y mantenimiento de mobiliario y equipo de administración, educacional y recreativo"
+353,"Instalación, reparación y mantenimiento de equipo de cómputo y tecnología de la información"
+354,"Instalación, reparación y mantenimiento de equipo e instrumental médico y de laboratorio"
+355,Reparación y mantenimiento de equipo de transporte
+356,Reparación y mantenimiento de equipo de defensa y seguridad
+357,"Instalación, reparación y mantenimiento de maquinaria, otros equipos y herramienta"
+358,Servicios de limpieza y manejo de desechos
+359,Servicios de jardinería y fumigación
+361,"Difusión por radio, televisión y otros medios de mensajes sobre programas y actividades gubernamentales"
+362,"Difusión por radio, televisión y otros medios de mensajes comerciales para promover la venta de bienes o servicios"
+363,"Servicios de creatividad, preproducción y producción de publicidad, excepto Internet"
+364,Servicios de revelado de fotografías
+365,"Servicios de la industria fílmica, del sonido y del video"
+366,Servicio de creación y difusión de contenido exclusivamente a través de Internet
+369,Otros servicios de información
+371,Pasajes aéreos
+372,Pasajes terrestres
+373,"Pasajes marítimos, lacustres y fluviales"
+374,Autotransporte
+375,Viáticos en el país
+376,Viáticos en el extranjero
+377,Gastos de instalación y traslado de menaje
+378,Servicios integrales de traslado y viáticos
+379,Otros servicios de traslado y hospedaje
+381,Gastos de ceremonial
+382,Gastos de orden social y cultural
+383,Congresos y convenciones
+384,Exposiciones
+385,Gastos de representación
+391,Servicios funerarios y de cementerios
+392,Impuestos y derechos
+393,Impuestos y derechos de importación
+394,Sentencias y resoluciones por autoridad competente
+395,"Penas, multas, accesorios y actualizaciones"
+396,Otros gastos por responsabilidades
+397,Utilidades
+398,Impuesto sobre nóminas y otros que se deriven de una relación laboral
+399,Otros servicios generales
+411,Asignaciones presupuestarias al Poder Ejecutivo
+412,Asignaciones presupuestarias al Poder Legislativo
+413,Asignaciones presupuestarias al Poder Judicial
+414,Asignaciones presupuestarias a Organos Autónomos
+414,Asignaciones presupuestarias a Órganos Autónomos
+415,Transferencias internas otorgadas a entidades paraestatales no empresariales y no financieras
+416,Transferencias internas otorgadas a entidades paraestatales empresariales y no financieras
+417,Transferencias internas otorgadas a fideicomisos públicos empresariales y no financieros
+418,Transferencias internas otorgadas a instituciones paraestatales públicas financieras
+419,Transferencias internas otorgadas a fideicomisos públicos financieros
+421,Transferencias otorgadas a entidades paraestatales no empresariales y no financieras
+422,Transferencias otorgadas para entidades paraestatales empresariales y no financieras
+423,Transferencias otorgadas para instituciones paraestatales públicas financieras
+424,Transferencias otorgadas a entidades federativas y municipios
+425,Transferencias a fideicomisos de entidades federativas y municipios
+431,Subsidios a la producción
+432,Subsidios a la distribución
+433,Subsidios a la inversión
+434,Subsidios a la prestación de servicios públicos
+435,Subsidios para cubrir diferenciales de tasas de interés
+436,Subsidios a la vivienda
+437,Subvenciones al consumo
+438,Subsidios a Entidades Federativas y Municipios
+439,Otros Subsidios
+441,Ayudas sociales a personas
+442,Becas y otras ayudas para programas de capacitación
+443,Ayudas sociales a instituciones de enseñanza
+444,Ayudas sociales a actividades científicas o académicas
+445,Ayudas sociales a instituciones sin fines de lucro
+446,Ayudas sociales a cooperativas
+447,Ayudas sociales a entidades de interés público
+448,Ayudas por desastres naturales y otros siniestros
+451,Pensiones
+452,Jubilaciones
+459,Otras pensiones y jubilaciones
+461,Transferencias a fideicomisos del Poder Ejecutivo
+462,Transferencias a fideicomisos del Poder Legislativo
+463,Transferencias a fideicomisos del Poder Judicial
+464,Transferencias a fideicomisos públicos de entidades paraestatales no empresariales y no financieras
+465,Transferencias a fideicomisos públicos de entidades paraestatales empresariales y no financieras
+466,Transferencias a fideicomisos de instituciones públicas financieras
+469,Otras transferencias a fideicomisos
+471,Transferencias por obligación de ley
+481,Donativos a instituciones sin fines de lucro
+482,Donativos a entidades federativas
+483,Donativos a fideicomisos privados
+484,Donativos a fideicomisos estatales
+485,Donativos internacionales
+491,Transferencias para gobiernos extranjeros
+492,Transferencias para organismos internacionales
+493,Transferencias para el sector privado externo
+511,Muebles de oficina y estantería
+512,"Muebles, excepto de oficina y estantería"
+513,"Bienes artísticos, culturales y científicos"
+514,Objetos de valor
+515,Equipo de cómputo y de tecnologías de la información
+519,Otros mobiliarios y equipos de administración
+521,Equipos y aparatos audiovisuales
+522,Aparatos deportivos
+523,Cámaras fotográficas y de video
+529,Otro mobiliario y equipo educacional y recreativo
+531,Equipo médico y de laboratorio
+532,Instrumental médico y de laboratorio
+541,Vehículos y Equipo Terrestre
+542,Carrocerías y remolques
+543,Equipo aeroespacial
+544,Equipo ferroviario
+545,Embarcaciones
+549,Otros equipos de transporte
+551,Equipo de defensa y seguridad
+561,Maquinaria y equipo agropecuario
+562,Maquinaria y equipo industrial
+563,Maquinaria y equipo de construcción
+564,"Sistemas de aire acondicionado, calefacción y de refrigeración industrial y comercial"
+565,Equipo de comunicación y telecomunicación
+566,"Equipos de generación eléctrica, aparatos y accesorios eléctricos"
+567,Herramientas y máquinas-herramienta
+569,Otros equipos
+571,Bovinos
+572,Porcinos
+573,Aves
+574,Ovinos y caprinos
+575,Peces y acuicultura
+576,Equinos
+577,Especies menores y de zoológico
+578,Arboles y plantas
+579,Otros activos biológicos
+581,Terrenos
+582,Viviendas
+583,Edificios no residenciales
+589,Otros bienes inmuebles
+591,Software
+592,Patentes
+593,Marcas
+594,Derechos
+595,Concesiones
+596,Franquicias
+597,Licencias informáticas e intelectuales
+598,"Licencias industriales, comerciales y otras"
+599,Otros activos intangibles
+611,Edificación habitacional
+612,Edificación no habitacional
+613,"Construcción de obras para el abastecimiento de agua, petróleo, gas, electricidad y telecomunicaciones"
+614,División de terrenos y construcción de obras de urbanización
+615,Construcción de vías de comunicación
+616,Otras construcciones de ingeniería civil u obra pesada
+617,Instalaciones y equipamiento en construcciones
+619,Trabajos de acabados en edificaciones y otros trabajos especializados
+621,Edificación habitacional
+622,Edificación no habitacional
+623,"Construcción de obras para el abastecimiento de agua, petróleo, gas, electricidad y telecomunicaciones"
+624,División de terrenos y construcción de obras de urbanización
+625,Construcción de vías de comunicación
+626,Otras construcciones de ingeniería civil u obra pesada
+627,Instalaciones y equipamiento en construcciones
+629,Trabajos de acabados en edificaciones y otros trabajos especializados
+631,"Estudios, formulación y evaluación de proyectos productivos no incluidos en conceptos anteriores de este capítulo"
+632,Ejecución de proyectos productivos no incluidos en conceptos anteriores de este capítulo
+711,Créditos otorgados por entidades federativas y municipios al sector social y privado para el fomento de actividades productivas
+712,Créditos otorgados por las entidades federativas a municipios para el fomento de actividades productivas
+721,Acciones y participaciones de capital en entidades paraestatales no empresariales y no financieras con fines de política económica
+722,Acciones y participaciones de capital en entidades paraestatales empresariales y no financieras con fines de política económica
+723,Acciones y participaciones de capital en instituciones paraestatales públicas financieras con fines de política económica
+724,Acciones y participaciones de capital en el sector privado con fines de política económica
+725,Acciones y participaciones de capital en organismos internacionales con fines de política económica
+726,Acciones y participaciones de capital en el sector externo con fines de política económica
+727,Acciones y participaciones de capital en el sector público con fines de gestión de liquidez
+728,Acciones y participaciones de capital en el sector privado con fines de gestión de liquidez
+729,Acciones y participaciones de capital en el sector externo con fines de gestión de liquidez
+731,Bonos
+732,Valores representativos de deuda adquiridos con fines de política económica
+733,Valores representativos de deuda adquiridos con fines de gestión de liquidez
+734,Obligaciones negociables adquiridas con fines de política económica
+735,Obligaciones negociables adquiridas con fines de gestión de liquidez
+739,Otros valores
+741,Concesión de préstamos a entidades paraestatales no empresariales y no financieras con fines de política económica
+742,Concesión de préstamos a entidades paraestatales empresariales y no financieras con fines de política económica
+743,Concesión de préstamos a instituciones paraestatales públicas financieras con fines de política económica
+744,Concesión de préstamos a entidades federativas y municipios con fines de política económica
+745,Concesión de préstamos al sector privado con fines de política económica
+746,Concesión de préstamos al sector externo con fines de política económica
+747,Concesión de préstamos al sector público con fines de gestión de liquidez
+748,Concesión de préstamos al sector privado con fines de gestión de liquidez
+749,Concesión de préstamos al sector externo con fines de gestión de liquidez
+751,Inversiones en fideicomisos del Poder Ejecutivo
+752,Inversiones en fideicomisos del Poder Legislativo
+753,Inversiones en fideicomisos del Poder Judicial
+754,Inversiones en fideicomisos públicos no empresariales y no financieros
+755,Inversiones en fideicomisos públicos empresariales y no financieros
+756,Inversiones en fideicomisos públicos financieros
+757,Inversiones en fideicomisos de entidades federativas
+758,Inversiones en fideicomisos de municipios
+759,Otras inversiones en fideicomisos
+761,Depósitos a largo plazo en moneda nacional
+762,Depósitos a largo plazo en moneda extranjera
+791,Contingencias por fenómenos naturales
+792,Contingencias socioeconómicas
+799,Otras erogaciones especiales
+811,Fondo general de participaciones
+812,Fondo de fomento municipal
+813,Participaciones de las entidades federativas a los municipios
+814,Otros conceptos participables de la Federación a entidades federativas
+815,Otros conceptos participables de la Federación a municipios
+816,Convenios de colaboración administrativa
+831,Aportaciones de la Federación a las entidades federativas
+832,Aportaciones de la Federación a municipios
+833,Aportaciones de las entidades federativas a los municipios
+834,Aportaciones previstas en leyes y decretos al sistema de protección social
+835,Aportaciones previstas en leyes y decretos compensatorias a entidades federativas y municipios
+851,Convenios de reasignación
+852,Convenios de descentralización
+853,Otros convenios
+911,Amortización de la deuda interna con instituciones de crédito
+912,Amortización de la deuda interna por emisión de títulos y valores
+913,Amortización de arrendamientos financieros nacionales
+914,Amortización de la deuda externa con instituciones de crédito
+915,Amortización de deuda externa con organismos financieros internacionales
+916,Amortización de la deuda bilateral
+917,Amortización de la deuda externa por emisión de títulos y valores
+918,Amortización de arrendamientos financieros internacionales
+921,Intereses de la deuda interna con instituciones de crédito
+922,Intereses derivados de la colocación de títulos y valores
+923,Intereses por arrendamientos financieros nacionales
+924,Intereses de la deuda externa con instituciones de crédito
+925,Intereses de la deuda con organismos financieros Internacionales
+926,Intereses de la deuda bilateral
+927,Intereses derivados de la colocación de títulos y valores en el exterior
+928,Intereses por arrendamientos financieros internacionales
+931,Comisiones de la deuda pública interna
+932,Comisiones de la deuda pública externa
+941,Gastos de la deuda pública interna
+942,Gastos de la deuda pública externa
+951,Costos por coberturas
+961,Apoyos a intermediarios financieros
+962,Apoyos a ahorradores y deudores del Sistema Financiero Nacional
+991,ADEFAS
