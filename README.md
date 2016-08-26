@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/os-data/mexican-federal-budget.png?label=ready&title=Ready)](https://waffle.io/os-data/mexican-federal-budget)
 # Mexican federal budget pipeline
 
 This repository is part of the [Open-Spending](http://next.openspending.org) project. It contains a data pre-processing pipeline that cleans-up and concatenates multiple yearly budgets into one file ready to be modelled and uploaded into Open-Spending.
