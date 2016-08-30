@@ -1,0 +1,104 @@
+{
+    "Descripci\u00f3n de Funci\u00f3n": [
+        "FUNCIONL_DESCRIPCION"
+    ],
+    "Pagado": null,
+    "Reasignacion": [
+        "RA"
+    ],
+    "Ejercicio": null,
+    "Subfunci\u00f3n": [
+        "SF"
+    ],
+    "Entidad Federativa": [
+        "EF"
+    ],
+    "Descripci\u00f3n de la entidad federativa": [
+        "ENTIDAD_FED_DESCRIPCION"
+    ],
+    "Clave de cartera": [
+        "CLAVE_CARTERA"
+    ],
+    "Descripci\u00f3n de Programa Presupuestario": [
+        "PROGR_PRES_DESCRIPCION"
+    ],
+    "Descripci\u00f3n de Objeto del Gasto": [
+        "CONCEPTO_DESCRIPCION"
+    ],
+    "Objeto del Gasto": [
+        "CONCEPTO"
+    ],
+    "Devengado": null,
+    "Descripci\u00f3n de Reasignacion": [
+        "REASIGNACION_DESCRIPCION"
+    ],
+    "Programa Presupuestario": [
+        "PP"
+    ],
+    "Unidad Responsable": [
+        "UNIDAD"
+    ],
+    "Modalidad del Programa presupuestario": [
+        "MOD",
+        "Identificador de Programa Presupuestario",
+        "Identificador del Programa Presupuestario"
+    ],
+    "Descripci\u00f3n de Ramo": [
+        "RAMO_DESCRIPCION"
+    ],
+    "Descripci\u00f3n de Subfunci\u00f3n": [
+        "SUBFUNCIONL_DESCRIPCION"
+    ],
+    "Adefas": [
+        "ADEFAS"
+    ],
+    "Descripci\u00f3n de la Actividad Institucional": [
+        "ACTIVIDAD_INST_DESCRIPCION",
+        "Descripci\u00f3n de Actividad Institucional"
+    ],
+    "Ejercido": null,
+    "Fuente de Financiamiento": [
+        "FF"
+    ],
+    "Aprobado": [
+        "PEF_2016",
+        "Importe Presupuesto de Egresos de la Federaci\u00f3n",
+        "Importe Presupuesto de Egresos de la Federaci\u00f3n (PEF)"
+    ],
+    "Descripci\u00f3n de la modalidad del programa presupuestario": [
+        "MODALIDAD_DESCRIPCION",
+        "Descripci\u00f3n del Identificador del Programa Presupuestario",
+        "Descripci\u00f3n del Identificador de Programa Presupuestario"
+    ],
+    "Tipo de Gasto": [
+        "TG"
+    ],
+    "Actividad Institucional": [
+        "AI"
+    ],
+    "Funci\u00f3n": [
+        "FN"
+    ],
+    "Descripci\u00f3n de Fuente de Financiamiento": [
+        "FUENTE_FINAN_DESCRIPCION"
+    ],
+    "Ramo": null,
+    "Descripci\u00f3n de Unidad Responsable": [
+        "UNIDAD_DESCRIPCION"
+    ],
+    "Modificado": null,
+    "Descripci\u00f3n de Grupo Funcional": [
+        "Descripci\u00f3n de Finalidad",
+        "GRUPO_FUN_DESCRIPCION",
+        "Descripci\u00f3n de Grupo Funcional"
+    ],
+    "Descripci\u00f3n de Tipo de Gasto": [
+        "TIPO_GASTO_DESCRIPCION"
+    ],
+    "Ciclo": null,
+    "Grupo Funcional": [
+        "Finalidad",
+        "GF",
+        "Grupo Funcional"
+    ]
+}

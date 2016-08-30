@@ -1,0 +1,104 @@
+{
+    "Descripci\u00f3n de Fuente de Financiamiento": [
+        "FUENTE_FINAN_DESCRIPCION"
+    ],
+    "Descripci\u00f3n de Subfunci\u00f3n": [
+        "SUBFUNCIONL_DESCRIPCION"
+    ],
+    "Devengado": null,
+    "Pagado": null,
+    "Actividad Institucional": [
+        "AI"
+    ],
+    "Descripci\u00f3n de Reasignacion": [
+        "REASIGNACION_DESCRIPCION"
+    ],
+    "Unidad Responsable": [
+        "UNIDAD"
+    ],
+    "Ramo": null,
+    "Descripci\u00f3n de Tipo de Gasto": [
+        "TIPO_GASTO_DESCRIPCION"
+    ],
+    "Descripci\u00f3n de Grupo Funcional": [
+        "Descripci\u00f3n de Finalidad",
+        "GRUPO_FUN_DESCRIPCION",
+        "Descripci\u00f3n de Grupo Funcional"
+    ],
+    "Descripci\u00f3n de Unidad Responsable": [
+        "UNIDAD_DESCRIPCION"
+    ],
+    "Ejercido": null,
+    "Objeto del Gasto": [
+        "CONCEPTO"
+    ],
+    "Programa Presupuestario": [
+        "PP"
+    ],
+    "Ejercicio": null,
+    "Tipo de Gasto": [
+        "TG"
+    ],
+    "Subfunci\u00f3n": [
+        "SF"
+    ],
+    "Clave de cartera": [
+        "CLAVE_CARTERA"
+    ],
+    "Adefas": [
+        "ADEFAS"
+    ],
+    "Fuente de Financiamiento": [
+        "FF"
+    ],
+    "Descripci\u00f3n de Ramo": [
+        "RAMO_DESCRIPCION"
+    ],
+    "Descripci\u00f3n de la Actividad Institucional": [
+        "ACTIVIDAD_INST_DESCRIPCION",
+        "Descripci\u00f3n de Actividad Institucional"
+    ],
+    "Descripci\u00f3n de la entidad federativa": [
+        "ENTIDAD_FED_DESCRIPCION"
+    ],
+    "Entidad Federativa": [
+        "EF"
+    ],
+    "Ciclo": null,
+    "Funci\u00f3n": [
+        "FN"
+    ],
+    "Modalidad del Programa presupuestario": [
+        "MOD",
+        "Identificador de Programa Presupuestario",
+        "Identificador del Programa Presupuestario"
+    ],
+    "Descripci\u00f3n de Funci\u00f3n": [
+        "FUNCIONL_DESCRIPCION"
+    ],
+    "Modificado": null,
+    "Reasignacion": [
+        "RA"
+    ],
+    "Aprobado": [
+        "PEF_2016",
+        "Importe Presupuesto de Egresos de la Federaci\u00f3n",
+        "Importe Presupuesto de Egresos de la Federaci\u00f3n (PEF)"
+    ],
+    "Grupo Funcional": [
+        "Finalidad",
+        "GF",
+        "Grupo Funcional"
+    ],
+    "Descripci\u00f3n de Programa Presupuestario": [
+        "PROGR_PRES_DESCRIPCION"
+    ],
+    "Descripci\u00f3n de la modalidad del programa presupuestario": [
+        "MODALIDAD_DESCRIPCION",
+        "Descripci\u00f3n del Identificador del Programa Presupuestario",
+        "Descripci\u00f3n del Identificador de Programa Presupuestario"
+    ],
+    "Descripci\u00f3n de Objeto del Gasto": [
+        "CONCEPTO_DESCRIPCION"
+    ]
+}
