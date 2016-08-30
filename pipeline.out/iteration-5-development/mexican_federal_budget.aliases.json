@@ -1,0 +1,104 @@
+{
+    "Tipo de Gasto": [
+        "TG"
+    ],
+    "Fuente de Financiamiento": [
+        "FF"
+    ],
+    "Descripci\u00f3n de Funci\u00f3n": [
+        "FUNCIONL_DESCRIPCION"
+    ],
+    "Descripci\u00f3n de Tipo de Gasto": [
+        "TIPO_GASTO_DESCRIPCION"
+    ],
+    "Adefas": [
+        "ADEFAS"
+    ],
+    "Descripci\u00f3n de Objeto del Gasto": [
+        "CONCEPTO_DESCRIPCION"
+    ],
+    "Descripci\u00f3n de Programa Presupuestario": [
+        "PROGR_PRES_DESCRIPCION"
+    ],
+    "Subfunci\u00f3n": [
+        "SF"
+    ],
+    "Descripci\u00f3n de la modalidad del programa presupuestario": [
+        "MODALIDAD_DESCRIPCION",
+        "Descripci\u00f3n del Identificador del Programa Presupuestario",
+        "Descripci\u00f3n del Identificador de Programa Presupuestario"
+    ],
+    "Descripci\u00f3n de Grupo Funcional": [
+        "Descripci\u00f3n de Finalidad",
+        "GRUPO_FUN_DESCRIPCION",
+        "Descripci\u00f3n de Grupo Funcional"
+    ],
+    "Entidad Federativa": [
+        "EF"
+    ],
+    "Programa Presupuestario": [
+        "PP"
+    ],
+    "Devengado": null,
+    "Grupo Funcional": [
+        "Finalidad",
+        "GF",
+        "Grupo Funcional"
+    ],
+    "Actividad Institucional": [
+        "AI"
+    ],
+    "Ciclo": null,
+    "Ejercido": null,
+    "Modificado": null,
+    "Descripci\u00f3n de Ramo": [
+        "RAMO_DESCRIPCION"
+    ],
+    "Descripci\u00f3n de Reasignacion": [
+        "REASIGNACION_DESCRIPCION"
+    ],
+    "Aprobado": [
+        "PEF_2016",
+        "Importe Presupuesto de Egresos de la Federaci\u00f3n",
+        "Importe Presupuesto de Egresos de la Federaci\u00f3n (PEF)"
+    ],
+    "Ramo": null,
+    "Descripci\u00f3n de la Actividad Institucional": [
+        "ACTIVIDAD_INST_DESCRIPCION",
+        "Descripci\u00f3n de Actividad Institucional"
+    ],
+    "Descripci\u00f3n de Unidad Responsable": [
+        "UNIDAD_DESCRIPCION"
+    ],
+    "Descripci\u00f3n de la entidad federativa": [
+        "ENTIDAD_FED_DESCRIPCION"
+    ],
+    "Objeto del Gasto": [
+        "CONCEPTO"
+    ],
+    "Unidad Responsable": [
+        "UNIDAD"
+    ],
+    "Descripci\u00f3n de Fuente de Financiamiento": [
+        "FUENTE_FINAN_DESCRIPCION"
+    ],
+    "Clave de cartera": [
+        "CLAVE_CARTERA"
+    ],
+    "Reasignacion": [
+        "RA"
+    ],
+    "Descripci\u00f3n de Subfunci\u00f3n": [
+        "SUBFUNCIONL_DESCRIPCION"
+    ],
+    "Modalidad del Programa presupuestario": [
+        "MOD",
+        "Identificador de Programa Presupuestario",
+        "Identificador del Programa Presupuestario"
+    ],
+    "Ejercicio": null,
+    "Funci\u00f3n": [
+        "FN"
+    ],
+    "Pagado": null
+}
