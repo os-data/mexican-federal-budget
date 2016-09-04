@@ -1,0 +1,119 @@
+{
+    "Programa Presupuestario": [
+        "PP"
+    ],
+    "Descripci\u00f3n de la Actividad Institucional": [
+        "ACTIVIDAD_INST_DESCRIPCION",
+        "Descripci\u00f3n de Actividad Institucional"
+    ],
+    "Subfunci\u00f3n": [
+        "SF"
+    ],
+    "Descripci\u00f3n de Subfunci\u00f3n": [
+        "SUBFUNCIONL_DESCRIPCION",
+        "Descripci\u00f3n de subfunci\u00f3n"
+    ],
+    "Modificado": null,
+    "Ejercicio": null,
+    "Descripci\u00f3n de Entidad Federativa": [
+        "Descripci\u00f3n de la entidad federativa",
+        "ENTIDAD_FED_DESCRIPCION"
+    ],
+    "Descripci\u00f3n de Tipo de Gasto": [
+        "TIPO_GASTO_DESCRIPCION"
+    ],
+    "Adefas": [
+        "ADEFAS"
+    ],
+    "Entidad Federativa": [
+        "EF"
+    ],
+    "Modalidad del Programa presupuestario": [
+        "MOD",
+        "Identificador de Programa Presupuestario",
+        "Identificador del Programa Presupuestario"
+    ],
+    "Devengado": null,
+    "Grupo Funcional": [
+        "Finalidad",
+        "GF",
+        "Grupo Funcional"
+    ],
+    "Fuente de Financiamiento": [
+        "FF",
+        "Fuente de Finaciamiento"
+    ],
+    "Ciclo": null,
+    "Descripci\u00f3n de Concepto": null,
+    "Actividad Institucional": [
+        "AI"
+    ],
+    "Pagado": null,
+    "Descripci\u00f3n de Partida Gen\u00e9rica": null,
+    "Descripci\u00f3n de Objeto del Gasto": [
+        "CONCEPTO_DESCRIPCION"
+    ],
+    "Descripci\u00f3n de Partida Espec\u00edfica": [
+        "Descripcion de Partida Espec\u00edfica"
+    ],
+    "Reasignacion": [
+        "RA"
+    ],
+    "Objeto del Gasto": [
+        "CONCEPTO"
+    ],
+    "Descripci\u00f3n de Reasignacion": [
+        "REASIGNACION_DESCRIPCION"
+    ],
+    "Descripci\u00f3n de Capitulo": null,
+    "Ejercido": null,
+    "Descripci\u00f3n de Unidad Responsable": [
+        "UNIDAD_DESCRIPCION"
+    ],
+    "Ramo": [
+        "RAMO"
+    ],
+    "Descripci\u00f3n de Funci\u00f3n": [
+        "FUNCIONL_DESCRIPCION"
+    ],
+    "Partida Gen\u00e9rica": null,
+    "Unidad Responsable": [
+        "UNIDAD"
+    ],
+    "Concepto": null,
+    "Descripci\u00f3n de Programa Presupuestario": [
+        "PROGR_PRES_DESCRIPCION"
+    ],
+    "Capitulo": null,
+    "Descripci\u00f3n de Fuente de Financiamiento": [
+        "FUENTE_FINAN_DESCRIPCION"
+    ],
+    "Partida Espec\u00edfica": null,
+    "Aprobado": [
+        "PEF_2016",
+        "Importe Presupuesto de Egresos de la Federaci\u00f3n",
+        "Importe Presupuesto de Egresos de la Federaci\u00f3n (PEF)"
+    ],
+    "Clave de cartera": [
+        "CLAVE_CARTERA"
+    ],
+    "Tipo de Gasto": [
+        "TG"
+    ],
+    "Descripci\u00f3n de Grupo Funcional": [
+        "Descripci\u00f3n de Finalidad",
+        "GRUPO_FUN_DESCRIPCION",
+        "Descripci\u00f3n de Grupo Funcional"
+    ],
+    "Descripci\u00f3n de Ramo": [
+        "RAMO_DESCRIPCION"
+    ],
+    "Descripci\u00f3n de la modalidad del programa presupuestario": [
+        "MODALIDAD_DESCRIPCION",
+        "Descripci\u00f3n del Identificador del Programa Presupuestario",
+        "Descripci\u00f3n del Identificador de Programa Presupuestario"
+    ],
+    "Funci\u00f3n": [
+        "FN"
+    ]
+}
