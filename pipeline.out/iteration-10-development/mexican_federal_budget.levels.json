@@ -1,0 +1,16 @@
+{
+    "activities": [
+        "Modalidad del Programa presupuestario",
+        "Programa Presupuestario"
+    ],
+    "administrative": [
+        "Ramo",
+        "Unidad Responsable"
+    ],
+    "functional": [
+        "Grupo Funcional",
+        "Funci\u00f3n",
+        "Subfunci\u00f3n",
+        "Actividad Institucional"
+    ]
+}
