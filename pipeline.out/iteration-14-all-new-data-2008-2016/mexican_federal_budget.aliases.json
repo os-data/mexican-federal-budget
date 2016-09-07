@@ -1,0 +1,169 @@
+{
+    "DESC_ENT_FED": [
+        "Descripci\u00f3n de Entidad Federativa",
+        "Descripci\u00f3n de la entidad federativa",
+        "ENTIDAD_FED_DESCRIPCION"
+    ],
+    "DESC_FF": [
+        "Descripci\u00f3n de Fuente de Financiamiento",
+        "FUENTE_FINAN_DESCRIPCION"
+    ],
+    "CICLO": [
+        "Ciclo"
+    ],
+    "MONTO_EJERCIDO": [
+        "Ejercido"
+    ],
+    "DESC_MODALIDAD": [
+        "Descripci\u00f3n de la modalidad del programa presupuestario",
+        "MODALIDAD_DESCRIPCION",
+        "Descripci\u00f3n del Identificador del Programa Presupuestario",
+        "Descripci\u00f3n del Identificador de Programa Presupuestario"
+    ],
+    "DESC_CONCEPTO": [
+        "Descripci\u00f3n de Concepto",
+        "Descripci\u00f3n de Objeto del Gasto",
+        "CONCEPTO_DESCRIPCION"
+    ],
+    "MONTO_APROBADO": [
+        "Aprobado",
+        "PEF_2016",
+        "Importe Presupuesto de Egresos de la Federaci\u00f3n",
+        "Importe Presupuesto de Egresos de la Federaci\u00f3n (PEF)"
+    ],
+    "ID_FUNCION": [
+        "Funci\u00f3n",
+        "FN"
+    ],
+    "DESC_RAMO": [
+        "Descripci\u00f3n de Ramo",
+        "RAMO_DESCRIPCION"
+    ],
+    "MONTO_DEVENGADO": [
+        "Devengado"
+    ],
+    "DESC_PP": [
+        "Descripci\u00f3n de Programa Presupuestario",
+        "PROGR_PRES_DESCRIPCION"
+    ],
+    "RA": [
+        "Reasignacion",
+        "RA"
+    ],
+    "ID_FF": [
+        "Fuente de Financiamiento",
+        "FF",
+        "Fuente de Finaciamiento"
+    ],
+    "ID_AI": [
+        "Actividad Institucional",
+        "AI"
+    ],
+    "MONTO_PAGADO": [
+        "Pagado"
+    ],
+    "PARTIDA_ESPECIFICA": [
+        "Partida Espec\u00edfica"
+    ],
+    "ID_MODALIDAD": [
+        "Modalidad del Programa presupuestario",
+        "MOD",
+        "Identificador de Programa Presupuestario",
+        "Identificador del Programa Presupuestario"
+    ],
+    "DESC_TIPOGASTO": [
+        "Descripci\u00f3n de Tipo de Gasto",
+        "TIPO_GASTO_DESCRIPCION"
+    ],
+    "ID_PPI": [
+        "Clave de cartera",
+        "CLAVE_CARTERA"
+    ],
+    "GPO_FUNCIONAL": [
+        "Grupo Funcional",
+        "Finalidad",
+        "GF",
+        "Grupo Funcional"
+    ],
+    "ID_CAPITULO": [
+        "Capitulo"
+    ],
+    "DESC_CAPITULO": [
+        "Descripci\u00f3n de Capitulo"
+    ],
+    "MONTO_MODIFICADO": [
+        "Modificado"
+    ],
+    "DESC_PARTIDA_GENERICA": [
+        "Descripci\u00f3n de Partida Gen\u00e9rica"
+    ],
+    "DESC_FUNCION": [
+        "Descripci\u00f3n de Funci\u00f3n",
+        "FUNCIONL_DESCRIPCION"
+    ],
+    "DESC_UR": [
+        "Descripci\u00f3n de Unidad Responsable",
+        "UNIDAD_DESCRIPCION"
+    ],
+    "ID_SUBFUNCION": [
+        "Subfunci\u00f3n",
+        "SF"
+    ],
+    "DESC_SUBFUNCION": [
+        "Descripci\u00f3n de Subfunci\u00f3n",
+        "SUBFUNCIONL_DESCRIPCION",
+        "Descripci\u00f3n de subfunci\u00f3n"
+    ],
+    "DESC_GPO_FUNCIONAL": [
+        "Descripci\u00f3n de Grupo Funcional",
+        "Descripci\u00f3n de Finalidad",
+        "GRUPO_FUN_DESCRIPCION",
+        "Descripci\u00f3n de Grupo Funcional"
+    ],
+    "ID_TIPOGASTO": [
+        "TG",
+        "Tipo de Gasto"
+    ],
+    "DESC_PARTIDA_ESPECIFICA": [
+        "Descripci\u00f3n de Partida Espec\u00edfica",
+        "Descripcion de Partida Espec\u00edfica"
+    ],
+    "PP": [
+        "Programa Presupuestario"
+    ],
+    "MONTO_ADEFAS": [
+        "Adefas",
+        "ADEFAS"
+    ],
+    "ENTIDAD": [
+        "Entidad Federativa",
+        "EF"
+    ],
+    "DESC_REASIGNATION": [
+        "Descripci\u00f3n de Reasignacion",
+        "REASIGNACION_DESCRIPCION"
+    ],
+    "ID_RAMO": [
+        "Ramo",
+        "RAMO"
+    ],
+    "MONTO_EJERCICIO": [
+        "Ejercicio"
+    ],
+    "ID_UR": [
+        "Unidad Responsable",
+        "UNIDAD"
+    ],
+    "ID_CONCEPTO": [
+        "Objeto del Gasto",
+        "Concepto"
+    ],
+    "PARTIDA_GENERICA": [
+        "Partida Gen\u00e9rica"
+    ],
+    "DESC_AI": [
+        "Descripci\u00f3n de la Actividad Institucional",
+        "ACTIVIDAD_INST_DESCRIPCION",
+        "Descripci\u00f3n de Actividad Institucional"
+    ]
+}

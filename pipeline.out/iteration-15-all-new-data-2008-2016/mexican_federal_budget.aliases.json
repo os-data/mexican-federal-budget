@@ -23,16 +23,16 @@
         "Devengado"
     ],
     "DESC_CAPITULO": [
-        "Descripción de Capitulo"
+        "Descripci\u00f3n de Capitulo"
     ],
     "DESC_ENT_FED": [
-        "Descripción de Entidad Federativa",
-        "Descripción de la entidad federativa",
+        "Descripci\u00f3n de Entidad Federativa",
+        "Descripci\u00f3n de la entidad federativa",
         "ENTIDAD_FED_DESCRIPCION"
     ],
     "DESC_CONCEPTO": [
-        "Descripción de Concepto",
-        "Descripción de Objeto del Gasto",
+        "Descripci\u00f3n de Concepto",
+        "Descripci\u00f3n de Objeto del Gasto",
         "CONCEPTO_DESCRIPCION"
     ],
     "RA": [
@@ -56,44 +56,44 @@
         "Identificador del Programa Presupuestario"
     ],
     "DESC_RAMO": [
-        "Descripción de Ramo",
+        "Descripci\u00f3n de Ramo",
         "RAMO_DESCRIPCION"
     ],
     "PARTIDA_GENERICA": [
-        "Partida Genérica"
+        "Partida Gen\u00e9rica"
     ],
     "PARTIDA_ESPECIFICA": [
-        "Partida Específica"
+        "Partida Espec\u00edfica"
     ],
     "ID_AI": [
         "Actividad Institucional",
         "AI"
     ],
     "DESC_PARTIDA_ESPECIFICA": [
-        "Descripción de Partida Específica",
-        "Descripcion de Partida Específica"
+        "Descripci\u00f3n de Partida Espec\u00edfica",
+        "Descripcion de Partida Espec\u00edfica"
     ],
     "DESC_SUBFUNCION": [
-        "Descripción de Subfunción",
+        "Descripci\u00f3n de Subfunci\u00f3n",
         "SUBFUNCIONL_DESCRIPCION",
-        "Descripción de subfunción"
+        "Descripci\u00f3n de subfunci\u00f3n"
     ],
     "DESC_MODALIDAD": [
-        "Descripción de la modalidad del programa presupuestario",
+        "Descripci\u00f3n de la modalidad del programa presupuestario",
         "MODALIDAD_DESCRIPCION",
-        "Descripción del Identificador del Programa Presupuestario",
-        "Descripción del Identificador de Programa Presupuestario"
+        "Descripci\u00f3n del Identificador del Programa Presupuestario",
+        "Descripci\u00f3n del Identificador de Programa Presupuestario"
     ],
     "DESC_PP": [
-        "Descripción de Programa Presupuestario",
+        "Descripci\u00f3n de Programa Presupuestario",
         "PROGR_PRES_DESCRIPCION"
     ],
     "DESC_TIPOGASTO": [
-        "Descripción de Tipo de Gasto",
+        "Descripci\u00f3n de Tipo de Gasto",
         "TIPO_GASTO_DESCRIPCION"
     ],
     "ID_SUBFUNCION": [
-        "Subfunción",
+        "Subfunci\u00f3n",
         "SF"
     ],
     "ENTIDAD": [
@@ -105,16 +105,16 @@
         "ADEFAS"
     ],
     "DESC_PARTIDA_GENERICA": [
-        "Descripción de Partida Genérica"
+        "Descripci\u00f3n de Partida Gen\u00e9rica"
     ],
     "DESC_FF": [
-        "Descripción de Fuente de Financiamiento",
+        "Descripci\u00f3n de Fuente de Financiamiento",
         "FUENTE_FINAN_DESCRIPCION"
     ],
     "DESC_AI": [
-        "Descripción de la Actividad Institucional",
+        "Descripci\u00f3n de la Actividad Institucional",
         "ACTIVIDAD_INST_DESCRIPCION",
-        "Descripción de Actividad Institucional"
+        "Descripci\u00f3n de Actividad Institucional"
     ],
     "ID_FF": [
         "Fuente de Financiamiento",
@@ -122,27 +122,27 @@
         "Fuente de Finaciamiento"
     ],
     "DESC_FUNCION": [
-        "Descripción de Función",
+        "Descripci\u00f3n de Funci\u00f3n",
         "FUNCIONL_DESCRIPCION"
     ],
     "DESC_REASIGNATION": [
-        "Descripción de Reasignacion",
+        "Descripci\u00f3n de Reasignacion",
         "REASIGNACION_DESCRIPCION"
     ],
     "MONTO_APROBADO": [
         "Aprobado",
         "PEF_2016",
-        "Importe Presupuesto de Egresos de la Federación",
-        "Importe Presupuesto de Egresos de la Federación (PEF)"
+        "Importe Presupuesto de Egresos de la Federaci\u00f3n",
+        "Importe Presupuesto de Egresos de la Federaci\u00f3n (PEF)"
     ],
     "DESC_GPO_FUNCIONAL": [
-        "Descripción de Grupo Funcional",
-        "Descripción de Finalidad",
+        "Descripci\u00f3n de Grupo Funcional",
+        "Descripci\u00f3n de Finalidad",
         "GRUPO_FUN_DESCRIPCION",
-        "Descripción de Grupo Funcional"
+        "Descripci\u00f3n de Grupo Funcional"
     ],
     "ID_FUNCION": [
-        "Función",
+        "Funci\u00f3n",
         "FN"
     ],
     "ID_TIPOGASTO": [
@@ -153,7 +153,7 @@
         "Ciclo"
     ],
     "DESC_UR": [
-        "Descripción de Unidad Responsable",
+        "Descripci\u00f3n de Unidad Responsable",
         "UNIDAD_DESCRIPCION"
     ],
     "MONTO_EJERCICIO": [

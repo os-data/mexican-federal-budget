@@ -1,0 +1,16 @@
+{
+    "administrative": [
+        "ID_RAMO",
+        "ID_UR"
+    ],
+    "functional": [
+        "GPO_FUNCIONAL",
+        "ID_FUNCION",
+        "ID_SUBFUNCION",
+        "ID_AI"
+    ],
+    "activities": [
+        "DESC_MODALIDAD",
+        "PP"
+    ]
+}
