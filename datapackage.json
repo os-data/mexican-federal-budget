@@ -297,8 +297,8 @@
     {
       "name": "mexican_federal_budget-merged",
       "format": "csv",
-      "path": "mexican_federal_budget_merged.csv",
-      "mediatype": "text/csv",
+      "path": "mexican_federal_budget-merged.csv",
+      "mediatype": "application/vnd.ms-excel",
       "bytes": 879591550,
       "dialect": {
         "csvddfVersion": 1,

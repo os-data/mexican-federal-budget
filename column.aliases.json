@@ -1,0 +1,169 @@
+{
+    "DESC_AI": [
+        "Descripción de la Actividad Institucional",
+        "ACTIVIDAD_INST_DESCRIPCION",
+        "Descripción de Actividad Institucional"
+    ],
+    "PARTIDA_ESPECIFICA": [
+        "Partida Específica"
+    ],
+    "DESC_RAMO": [
+        "Descripción de Ramo",
+        "RAMO_DESCRIPCION"
+    ],
+    "DESC_PARTIDA_GENERICA": [
+        "Descripción de Partida Genérica"
+    ],
+    "MONTO_ADEFAS": [
+        "Adefas",
+        "ADEFAS"
+    ],
+    "ID_PPI": [
+        "Clave de cartera",
+        "CLAVE_CARTERA"
+    ],
+    "GPO_FUNCIONAL": [
+        "Grupo Funcional",
+        "Finalidad",
+        "GF",
+        "Grupo Funcional"
+    ],
+    "DESC_PP": [
+        "Descripción de Programa Presupuestario",
+        "PROGR_PRES_DESCRIPCION"
+    ],
+    "DESC_CONCEPTO": [
+        "Descripción de Concepto",
+        "Descripción de Objeto del Gasto",
+        "CONCEPTO_DESCRIPCION"
+    ],
+    "PARTIDA_GENERICA": [
+        "Partida Genérica"
+    ],
+    "ID_RAMO": [
+        "Ramo",
+        "RAMO"
+    ],
+    "DESC_SUBFUNCION": [
+        "Descripción de Subfunción",
+        "SUBFUNCIONL_DESCRIPCION",
+        "Descripción de subfunción"
+    ],
+    "MONTO_DEVENGADO": [
+        "Devengado"
+    ],
+    "DESC_FF": [
+        "Descripción de Fuente de Financiamiento",
+        "FUENTE_FINAN_DESCRIPCION"
+    ],
+    "MONTO_APROBADO": [
+        "Aprobado",
+        "PEF_2016",
+        "Importe Presupuesto de Egresos de la Federación",
+        "Importe Presupuesto de Egresos de la Federación (PEF)"
+    ],
+    "MONTO_EJERCIDO": [
+        "Ejercido"
+    ],
+    "ID_FF": [
+        "Fuente de Financiamiento",
+        "FF",
+        "Fuente de Finaciamiento"
+    ],
+    "MONTO_MODIFICADO": [
+        "Modificado"
+    ],
+    "ID_MODALIDAD": [
+        "Modalidad del Programa presupuestario",
+        "MOD",
+        "Identificador de Programa Presupuestario",
+        "Identificador del Programa Presupuestario"
+    ],
+    "DESC_ENT_FED": [
+        "Descripción de Entidad Federativa",
+        "Descripción de la entidad federativa",
+        "ENTIDAD_FED_DESCRIPCION"
+    ],
+    "ID_SUBFUNCION": [
+        "Subfunción",
+        "SF"
+    ],
+    "DESC_FUNCION": [
+        "Descripción de Función",
+        "FUNCIONL_DESCRIPCION"
+    ],
+    "ID_AI": [
+        "Actividad Institucional",
+        "AI"
+    ],
+    "RA": [
+        "Reasignacion",
+        "RA"
+    ],
+    "ID_CAPITULO": [
+        "Capitulo"
+    ],
+    "DESC_TIPOGASTO": [
+        "Descripción de Tipo de Gasto",
+        "TIPO_GASTO_DESCRIPCION"
+    ],
+    "ID_TIPOGASTO": [
+        "TG",
+        "Tipo de Gasto"
+    ],
+    "DESC_UR": [
+        "Descripción de Unidad Responsable",
+        "UNIDAD_DESCRIPCION"
+    ],
+    "DESC_MODALIDAD": [
+        "Descripción de la modalidad del programa presupuestario",
+        "MODALIDAD_DESCRIPCION",
+        "Descripción del Identificador del Programa Presupuestario",
+        "Descripción del Identificador de Programa Presupuestario"
+    ],
+    "DESC_CAPITULO": [
+        "Descripción de Capitulo"
+    ],
+    "CICLO": [
+        "Ciclo"
+    ],
+    "MONTO_PAGADO": [
+        "Pagado"
+    ],
+    "DESC_PARTIDA_ESPECIFICA": [
+        "Descripción de Partida Específica",
+        "Descripcion de Partida Específica"
+    ],
+    "DESC_REASIGNATION": [
+        "Descripción de Reasignacion",
+        "REASIGNACION_DESCRIPCION"
+    ],
+    "ID_CONCEPTO": [
+        "Objeto del Gasto",
+        "Concepto"
+    ],
+    "ENTIDAD": [
+        "Entidad Federativa",
+        "EF"
+    ],
+    "ID_UR": [
+        "Unidad Responsable",
+        "UNIDAD"
+    ],
+    "DESC_GPO_FUNCIONAL": [
+        "Descripción de Grupo Funcional",
+        "Descripción de Finalidad",
+        "GRUPO_FUN_DESCRIPCION",
+        "Descripción de Grupo Funcional"
+    ],
+    "MONTO_EJERCICIO": [
+        "Ejercicio"
+    ],
+    "PP": [
+        "Programa Presupuestario"
+    ],
+    "ID_FUNCION": [
+        "Función",
+        "FN"
+    ]
+}
