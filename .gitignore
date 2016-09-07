@@ -7,3 +7,4 @@ samples/
 .csv#
 !objeto_del_gasto.catalog
 .~lock.*
+.idea/

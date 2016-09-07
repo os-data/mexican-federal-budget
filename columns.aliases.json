@@ -1,0 +1,169 @@
+{
+    "CICLO": [
+        "Ciclo"
+    ],
+    "DESC_RAMO": [
+        "Descripción de Ramo",
+        "RAMO_DESCRIPCION"
+    ],
+    "ID_CAPITULO": [
+        "Capitulo"
+    ],
+    "DESC_REASIGNATION": [
+        "Descripción de Reasignacion",
+        "REASIGNACION_DESCRIPCION"
+    ],
+    "GPO_FUNCIONAL": [
+        "Grupo Funcional",
+        "Finalidad",
+        "GF",
+        "Grupo Funcional"
+    ],
+    "ID_FUNCION": [
+        "Función",
+        "FN"
+    ],
+    "DESC_ENT_FED": [
+        "Descripción de Entidad Federativa",
+        "Descripción de la entidad federativa",
+        "ENTIDAD_FED_DESCRIPCION"
+    ],
+    "RA": [
+        "Reasignacion",
+        "RA"
+    ],
+    "ID_CONCEPTO": [
+        "Objeto del Gasto",
+        "Concepto"
+    ],
+    "ENTIDAD": [
+        "Entidad Federativa",
+        "EF"
+    ],
+    "ID_MODALIDAD": [
+        "Modalidad del Programa presupuestario",
+        "MOD",
+        "Identificador de Programa Presupuestario",
+        "Identificador del Programa Presupuestario"
+    ],
+    "DESC_MODALIDAD": [
+        "Descripción de la modalidad del programa presupuestario",
+        "MODALIDAD_DESCRIPCION",
+        "Descripción del Identificador del Programa Presupuestario",
+        "Descripción del Identificador de Programa Presupuestario"
+    ],
+    "MONTO_APROBADO": [
+        "Aprobado",
+        "PEF_2016",
+        "Importe Presupuesto de Egresos de la Federación",
+        "Importe Presupuesto de Egresos de la Federación (PEF)"
+    ],
+    "MONTO_PAGADO": [
+        "Pagado"
+    ],
+    "ID_PPI": [
+        "Clave de cartera",
+        "CLAVE_CARTERA"
+    ],
+    "DESC_AI": [
+        "Descripción de la Actividad Institucional",
+        "ACTIVIDAD_INST_DESCRIPCION",
+        "Descripción de Actividad Institucional"
+    ],
+    "MONTO_MODIFICADO": [
+        "Modificado"
+    ],
+    "MONTO_ADEFAS": [
+        "Adefas",
+        "ADEFAS"
+    ],
+    "ID_AI": [
+        "Actividad Institucional",
+        "AI"
+    ],
+    "ID_RAMO": [
+        "Ramo",
+        "RAMO"
+    ],
+    "MONTO_EJERCICIO": [
+        "Ejercicio"
+    ],
+    "MONTO_EJERCIDO": [
+        "Ejercido"
+    ],
+    "ID_FF": [
+        "Fuente de Financiamiento",
+        "FF",
+        "Fuente de Finaciamiento"
+    ],
+    "PARTIDA_GENERICA": [
+        "Partida Genérica"
+    ],
+    "DESC_FF": [
+        "Descripción de Fuente de Financiamiento",
+        "FUENTE_FINAN_DESCRIPCION"
+    ],
+    "DESC_GPO_FUNCIONAL": [
+        "Descripción de Grupo Funcional",
+        "Descripción de Finalidad",
+        "GRUPO_FUN_DESCRIPCION",
+        "Descripción de Grupo Funcional"
+    ],
+    "DESC_FUNCION": [
+        "Descripción de Función",
+        "FUNCIONL_DESCRIPCION"
+    ],
+    "ID_UR": [
+        "Unidad Responsable",
+        "UNIDAD"
+    ],
+    "PARTIDA_ESPECIFICA": [
+        "Partida Específica"
+    ],
+    "ID_TIPOGASTO": [
+        "TG",
+        "Tipo de Gasto"
+    ],
+    "DESC_TIPOGASTO": [
+        "Descripción de Tipo de Gasto",
+        "TIPO_GASTO_DESCRIPCION"
+    ],
+    "DESC_PP": [
+        "Descripción de Programa Presupuestario",
+        "PROGR_PRES_DESCRIPCION"
+    ],
+    "MONTO_DEVENGADO": [
+        "Devengado"
+    ],
+    "DESC_CAPITULO": [
+        "Descripción de Capitulo"
+    ],
+    "DESC_UR": [
+        "Descripción de Unidad Responsable",
+        "UNIDAD_DESCRIPCION"
+    ],
+    "PP": [
+        "Programa Presupuestario"
+    ],
+    "DESC_SUBFUNCION": [
+        "Descripción de Subfunción",
+        "SUBFUNCIONL_DESCRIPCION",
+        "Descripción de subfunción"
+    ],
+    "DESC_PARTIDA_GENERICA": [
+        "Descripción de Partida Genérica"
+    ],
+    "DESC_PARTIDA_ESPECIFICA": [
+        "Descripción de Partida Específica",
+        "Descripcion de Partida Específica"
+    ],
+    "ID_SUBFUNCION": [
+        "Subfunción",
+        "SF"
+    ],
+    "DESC_CONCEPTO": [
+        "Descripción de Concepto",
+        "Descripción de Objeto del Gasto",
+        "CONCEPTO_DESCRIPCION"
+    ]
+}

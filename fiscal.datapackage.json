@@ -4,50 +4,50 @@
       "functional-classification": {
         "dimensionType": "classification",
         "primaryKey": [
-          "Grupo_Funcional",
-          "Funcion",
-          "Subfuncion",
-          "Actividad_Institucional"
+          "GPO_FUNCIONAL",
+          "ID_FUNCION",
+          "ID_SUBFUNCION",
+          "ID_AI"
         ],
         "attributes": {
-          "Actividad_Institucional": {
-            "source": "Actividad Institucional",
+          "ID_AI": {
+            "source": "ID_AI",
             "title": "Actividad Institucional",
-            "parent": "Subfuncion"
+            "parent": "ID_SUBFUNCION"
           },
-          "Descripcion_de_Funcion": {
-            "source": "Descripción de Función",
+          "DESC_FUNCION": {
+            "source": "DESC_FUNCION",
             "title": "Descripción de Función",
-            "labelfor": "Funcion"
+            "labelfor": "ID_FUNCION"
           },
-          "Descripcion_de_Grupo_Funcional": {
-            "source": "Descripción de Grupo Funcional",
+          "DESC_GPO_FUNCIONAL": {
+            "source": "DESC_GPO_FUNCIONAL",
             "title": "Descripción de Grupo Funcional",
-            "labelfor": "Grupo_Funcional"
+            "labelfor": "GPO_FUNCIONAL"
           },
-          "Descripcion_de_Subfuncion": {
-            "source": "Descripción de Subfunción",
+          "DESC_SUBFUNCION": {
+            "source": "DESC_SUBFUNCION",
             "title": "Descripción de Subfunción",
-            "labelfor": "Subfuncion"
+            "labelfor": "ID_SUBFUNCION"
           },
-          "Descripcion_de_la_Actividad_Institucional": {
-            "source": "Descripción de la Actividad Institucional",
+          "DESC_AI": {
+            "source": "DESC_AI",
             "title": "Descripción de la Actividad Institucional",
-            "labelfor": "Actividad_Institucional"
+            "labelfor": "ID_AI"
           },
-          "Funcion": {
-            "source": "Función",
+          "FUNCION": {
+            "source": "FUNCION",
             "title": "Función",
-            "parent": "Grupo_Funcional"
+            "parent": "GPO_FUNCIONAL"
           },
-          "Grupo_Funcional": {
-            "source": "Grupo Funcional",
+          "GPO_FUNCIONAL": {
+            "source": "GPO_FUNCIONAL",
             "title": "Grupo Funcional"
           },
-          "Subfuncion": {
-            "source": "Subfunción",
+          "SUBFUNCION": {
+            "source": "ID_SUBFUNCION",
             "title": "Subfunción",
-            "parent": "Funcion"
+            "parent": "ID_FUNCION"
           }
         },
         "classificationType": "functional"
@@ -55,50 +55,50 @@
       "economic-classification": {
         "dimensionType": "classification",
         "primaryKey": [
-          "Capitulo",
-          "Concepto",
-          "Partida_Generica",
-          "Partida_Especifica"
+          "ID_CAPITULO",
+          "ID_CONCEPTO",
+          "PARTIDA_GENERICA",
+          "PARTIDA_ESPECIFICA"
         ],
         "attributes": {
-          "Capitulo": {
-            "source": "Capitulo",
+          "ID_CAPITULO": {
+            "source": "ID_CAPITULO",
             "title": "Capitulo"
           },
-          "Concepto": {
-            "source": "Concepto",
+          "ID_CONCEPTO": {
+            "source": "ID_CONCEPTO",
             "title": "Concepto",
-            "parent": "Capitulo"
+            "parent": "ID_CAPITULO"
           },
-          "Descripcion_de_Capitulo": {
-            "source": "Descripción de Capitulo",
+          "DESC_CAPITULO": {
+            "source": "DESC_CAPITULO",
             "title": "Descripción de Capitulo",
-            "labelfor": "Capitulo"
+            "labelfor": "ID_CAPITULO"
           },
-          "Descripcion_de_Concepto": {
-            "source": "Descripción de Concepto",
+          "DESC_CONCEPTO": {
+            "source": "DESC_CONCEPTO",
             "title": "Descripción de Concepto",
-            "labelfor": "Concepto"
+            "labelfor": "ID_CONCEPTO"
           },
-          "Descripcion_de_Partida_Especifica": {
-            "source": "Descripción de Partida Específica",
+          "DESC_PARTIDA_ESPECIFICA": {
+            "source": "DESC_ESPECIFICA",
             "title": "Descripción de Partida Específica",
-            "labelfor": "Partida_Especifica"
+            "labelfor": "PARTIDA_ESPECIFICA"
           },
-          "Descripcion_de_Partida_Generica": {
-            "source": "Descripción de Partida Genérica",
+          "DESC_PARTIDA_GENERICA": {
+            "source": "DESC_PARTIDA_GENERICA",
             "title": "Descripción de Partida Genérica",
-            "labelfor": "Partida_Generica"
+            "labelfor": "PARTIDA_GENERICA"
           },
-          "Partida_Especifica": {
+          "PARTIDA_ESPECIFICA": {
             "source": "Partida Específica",
             "title": "Partida Específica",
-            "parent": "Partida_Generica"
+            "parent": "PARTIDA_GENERICA"
           },
-          "Partida_Generica": {
+          "PARTIDA_GENERICA": {
             "source": "Partida Genérica",
             "title": "Partida Genérica",
-            "parent": "Concepto"
+            "parent": "ID_CONCEPTO"
           }
         },
         "classificationType": "economic"
@@ -106,11 +106,11 @@
       "date": {
         "dimensionType": "datetime",
         "primaryKey": [
-          "Ciclo"
+          "CICLO"
         ],
         "attributes": {
-          "Ciclo": {
-            "source": "Ciclo",
+          "CICLO": {
+            "source": "CICLO",
             "title": "Ciclo"
           }
         }
@@ -118,11 +118,11 @@
       "budget-line-id": {
         "dimensionType": "fact",
         "primaryKey": [
-          "Clave_de_cartera"
+          "ID_PPI"
         ],
         "attributes": {
-          "Clave_de_cartera": {
-            "source": "Clave de cartera",
+          "ID_PPI": {
+            "source": "ID_PPI",
             "title": "Clave de cartera"
           }
         }
@@ -130,17 +130,16 @@
       "fin-source": {
         "dimensionType": "other",
         "primaryKey": [
-          "Descripcion_de_Fuente_de_Financiamiento",
-          "Fuente_de_Financiamiento"
+          "ID_FF"
         ],
         "attributes": {
-          "Descripcion_de_Fuente_de_Financiamiento": {
-            "source": "Descripción de Fuente de Financiamiento",
+          "DESC_FF": {
+            "source": "DESC_FF",
             "title": "Descripción de Fuente de Financiamiento",
-            "labelfor": "Fuente_de_Financiamiento"
+            "labelfor": "ID_FF"
           },
-          "Fuente_de_Financiamiento": {
-            "source": "Fuente de Financiamiento",
+          "FF": {
+            "source": "ID_FF",
             "title": "Fuente de Financiamiento"
           }
         }
@@ -148,56 +147,56 @@
       "activity": {
         "dimensionType": "activity",
         "primaryKey": [
-          "Modalidad_del_Programa_presupuestario",
-          "Programa_Presupuestario"
+          "ID_MODALIDAD",
+          "ID_PP"
         ],
         "attributes": {
-          "Descripcion_de_Programa_Presupuestario": {
-            "source": "Descripción de Programa Presupuestario",
+          "DESC_PP": {
+            "source": "DESC_PP",
             "title": "Descripción de Programa Presupuestario",
-            "labelfor": "Programa_Presupuestario"
+            "labelfor": "PP"
           },
-          "Descripcion_de_la_modalidad_del_programa_presupuestario": {
-            "source": "Descripción de la modalidad del programa presupuestario",
+          "DESC_MODALIDAD": {
+            "source": "DESC_MODALIDAD",
             "title": "Descripción de la modalidad del programa presupuestario",
-            "labelfor": "Modalidad_del_Programa_presupuestario"
+            "labelfor": "ID_MODALIDAD"
           },
-          "Modalidad_del_Programa_presupuestario": {
-            "source": "Modalidad del Programa presupuestario",
+          "ID_MODALIDAD": {
+            "source": "ID_MODALIDAD",
             "title": "Modalidad del Programa presupuestario"
           },
-          "Programa_Presupuestario": {
-            "source": "Programa Presupuestario",
+          "ID_PP": {
+            "source": "ID_PP",
             "title": "Programa Presupuestario",
-            "parent": "Modalidad_del_Programa_presupuestario"
+            "parent": "ID_MODALIDAD"
           }
         }
       },
       "administrative-classification": {
         "dimensionType": "classification",
         "primaryKey": [
-          "Ramo",
-          "Unidad_Responsable"
+          "ID_RAMO",
+          "ID_UR"
         ],
         "attributes": {
-          "Descripcion_de_Ramo": {
-            "source": "Descripción de Ramo",
+          "DESC_RAMO": {
+            "source": "DESC_RAMO",
             "title": "Descripción de Ramo",
-            "labelfor": "Ramo"
+            "labelfor": "ID_RAMO"
           },
-          "Descripcion_de_Unidad_Responsable": {
-            "source": "Descripción de Unidad Responsable",
+          "DESC_UR": {
+            "source": "DESC_UR",
             "title": "Descripción de Unidad Responsable",
-            "labelfor": "Unidad_Responsable"
+            "labelfor": "ID_UR"
           },
-          "Ramo": {
-            "source": "Ramo",
+          "ID_RAMO": {
+            "source": "ID_RAMO",
             "title": "Ramo"
           },
-          "Unidad_Responsable": {
-            "source": "Unidad Responsable",
+          "ID_UR": {
+            "source": "ID_UR",
             "title": "Unidad Responsable",
-            "parent": "Ramo"
+            "parent": "ID_RAMO"
           }
         },
         "classificationType": "administrative"
@@ -205,78 +204,83 @@
       "expenditure-type": {
         "dimensionType": "other",
         "primaryKey": [
-          "Descripcion_de_Tipo_de_Gasto"
+          "ID_TIPOGASTO"
         ],
         "attributes": {
-          "Descripcion_de_Tipo_de_Gasto": {
-            "source": "Descripción de Tipo de Gasto",
-            "title": "Descripción de Tipo de Gasto"
+          "ID_TIPOGASTO": {
+            "source": "ID_TIPOGASTO",
+            "title": "Tipo de Gasto"
+          },
+          "DESC_TIPOGASTO": {
+            "source": "DESC_TIPOGASTO",
+            "title": "Descripción de Tipo de Gasto",
+            "labelFor": "ID_TIPOGASTO"
           }
         }
       },
       "geo-source": {
         "dimensionType": "location",
         "primaryKey": [
-          "Entidad_Federativa"
+          "ENTIDAD"
         ],
         "attributes": {
-          "Descripcion_de_la_entidad_federativa": {
-            "source": "Descripción de la entidad federativa",
-            "title": "Descripción de la entidad federativa",
-            "labelfor": "Entidad_Federativa"
+          "DESC_ENT_FED": {
+            "source": "DESC_ENT_FED",
+            "title": "Descripción de Entidad Federativa",
+            "labelfor": "ENTIDAD"
           },
-          "Entidad_Federativa": {
-            "source": "Entidad Federativa",
+          "ENTIDAD": {
+            "source": "ENTIDAD",
             "title": "Entidad Federativa"
           }
         }
       }
     },
     "measures": {
-      "Adefas": {
-        "source": "Adefas",
+      "MONTO_ADEFAS": {
+        "source": "MONTO_ADEFAS",
         "title": "Adefas",
         "currency": "MXN",
         "direction": "expenditure",
         "phase": "executed"
       },
-      "Aprobado": {
-        "source": "Aprobado",
+      "MONTO_APROBADO": {
+        "source": "MONTO_APROBADO",
         "title": "Aprobado",
         "currency": "MXN",
         "direction": "expenditure",
         "phase": "approved"
       },
-      "Devengado": {
-        "source": "Devengado",
+      "MONTO_DEVENGADO": {
+        "source": "MONTO_DEVENGADO",
         "title": "Devengado",
         "currency": "MXN",
         "direction": "expenditure",
         "phase": "approved"
       },
-      "Ejercicio": {
-        "source": "Ejercicio",
+      "MONTO_EJERCICIO": {
+        "source": "MONTO_EJERCICIO",
         "title": "Ejercicio",
         "currency": "MXN",
         "direction": "expenditure",
         "phase": "executed"
       },
-      "Ejercido": {
-        "source": "Ejercido",
+      "MONTO_EJERCIDO": {
+        "source": "MONTO_EJERCIDO",
         "title": "Ejercido",
         "currency": "MXN",
         "direction": "expenditure",
         "phase": "executed"
       },
-      "Modificado": {
-        "source": "Modificado",
+      "MONTO_MODIFICADO": {
+        "source": "MONTO_MODEIFICADO",
         "title": "Modificado",
         "currency": "MXN",
         "direction": "expenditure",
         "phase": "adjusted"
       },
-      "Pagado": {
-        "source": "Pagado",
+      "MONTO_PAGADO": {
+        "source": "MONTO_PAGADO",
         "title": "Pagado",
         "currency": "MXN",
         "direction": "expenditure",
@@ -287,18 +291,18 @@
   "regionCode": "na",
   "countryCode": "MX",
   "fiscalPeriod": {
-    "start": "2010-01-01",
-    "end": "2016-12-31"
+    "start": "2008-01-01",
+    "end": "2015-12-31"
   },
-  "title": "Mexican Federal Budget 2010-2016 restructured",
-  "name": "mex-restructured",
-  "description": "Solves issues #3, #4 and #9 on https://github.com/os-data/mexican-federal-budget/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aclosed",
+  "title": "Cuenta Publica",
+  "name": "mexico-cuenta-publica",
+  "description": "",
   "resources": [
     {
-      "name": "mexican_federal_budget-merged",
+      "name": "mexican-federal-budget",
       "format": "csv",
       "path": "mexican_federal_budget_merged.csv",
-      "mediatype": "text/csv",
+      "mediatype": "application/vnd.ms-excel",
       "bytes": 879591550,
       "dialect": {
         "csvddfVersion": 1,
@@ -310,8 +314,8 @@
         "fields": [
           {
             "title": "Actividad Institucional",
-            "name": "Actividad Institucional",
-            "slug": "Actividad_Institucional",
+            "name": "ID_AI",
+            "slug": "ID_AI",
             "type": "string",
             "format": "default",
             "osType": "functional-classification:generic:level4:code:full",
@@ -319,30 +323,30 @@
           },
           {
             "title": "Adefas",
-            "name": "Adefas",
-            "slug": "Adefas",
+            "name": "MONTO_ADEFAS",
+            "slug": "MONTO_ADEFAS",
             "type": "number",
             "format": "default",
             "osType": "value",
             "conceptType": "value",
             "decimalChar": ".",
-            "groupChar": ","
+            "groupChar": ""
           },
           {
             "title": "Aprobado",
-            "name": "Aprobado",
-            "slug": "Aprobado",
+            "name": "MONTO_APROBADO",
+            "slug": "MONTO_APROBADO",
             "type": "number",
             "format": "default",
             "osType": "value",
             "conceptType": "value",
             "decimalChar": ".",
-            "groupChar": ","
+            "groupChar": ""
           },
           {
             "title": "Capitulo",
-            "name": "Capitulo",
-            "slug": "Capitulo",
+            "name": "ID_CAPITULO",
+            "slug": "ID_CAPITULO",
             "type": "string",
             "format": "default",
             "osType": "economic-classification:generic:level1:code:full",
@@ -350,8 +354,8 @@
           },
           {
             "title": "Ciclo",
-            "name": "Ciclo",
-            "slug": "Ciclo",
+            "name": "CICLO",
+            "slug": "CICLO",
             "type": "integer",
             "format": "default",
             "osType": "date:fiscal-year",
@@ -359,8 +363,8 @@
           },
           {
             "title": "Clave de cartera",
-            "name": "Clave de cartera",
-            "slug": "Clave_de_cartera",
+            "name": "ID_PPI",
+            "slug": "ID_PPI",
             "type": "string",
             "format": "default",
             "osType": "budget-line-id",
@@ -368,8 +372,8 @@
           },
           {
             "title": "Concepto",
-            "name": "Concepto",
-            "slug": "Concepto",
+            "name": "ID_CONCEPTO",
+            "slug": "ID_CONCEPTO",
             "type": "string",
             "format": "default",
             "osType": "economic-classification:generic:level2:code:full",
@@ -377,8 +381,8 @@
           },
           {
             "title": "Descripción de Capitulo",
-            "name": "Descripción de Capitulo",
-            "slug": "Descripcion_de_Capitulo",
+            "name": "DESC_CAPITULO",
+            "slug": "DESC_CAPITULO",
             "type": "string",
             "format": "default",
             "osType": "economic-classification:generic:level1:label",
@@ -386,8 +390,8 @@
           },
           {
             "title": "Descripción de Concepto",
-            "name": "Descripción de Concepto",
-            "slug": "Descripcion_de_Concepto",
+            "name": "DESC_CONCEPTO",
+            "slug": "DESC_CONCEPTO",
             "type": "string",
             "format": "default",
             "osType": "economic-classification:generic:level2:label",
@@ -395,8 +399,8 @@
           },
           {
             "title": "Descripción de Fuente de Financiamiento",
-            "name": "Descripción de Fuente de Financiamiento",
-            "slug": "Descripcion_de_Fuente_de_Financiamiento",
+            "name": "DESC_FF",
+            "slug": "DESC_FF",
             "type": "string",
             "format": "default",
             "osType": "fin-source:generic:label",
@@ -404,8 +408,8 @@
           },
           {
             "title": "Descripción de Función",
-            "name": "Descripción de Función",
-            "slug": "Descripcion_de_Funcion",
+            "name": "DESC_FUNCION",
+            "slug": "DESC_FUNCION",
             "type": "string",
             "format": "default",
             "osType": "functional-classification:generic:level2:label",
@@ -413,8 +417,8 @@
           },
           {
             "title": "Descripción de Grupo Funcional",
-            "name": "Descripción de Grupo Funcional",
-            "slug": "Descripcion_de_Grupo_Funcional",
+            "name": "DESC_GPO_FUNCIONAL",
+            "slug": "DESC_GPO_FUNCIONAL",
             "type": "string",
             "format": "default",
             "osType": "functional-classification:generic:level1:label",
@@ -422,8 +426,8 @@
           },
           {
             "title": "Descripción de Partida Específica",
-            "name": "Descripción de Partida Específica",
-            "slug": "Descripcion_de_Partida_Especifica",
+            "name": "DESC_PARTIDA_ESPECIFICA",
+            "slug": "DESC_PARTIDA_ESPECIFICA",
             "type": "string",
             "format": "default",
             "osType": "economic-classification:generic:level4:label",
@@ -431,8 +435,8 @@
           },
           {
             "title": "Descripción de Partida Genérica",
-            "name": "Descripción de Partida Genérica",
-            "slug": "Descripcion_de_Partida_Generica",
+            "name": "DESC_PARTIDA_GENERICA",
+            "slug": "DESC_PARTIDA_GENERICA",
             "type": "string",
             "format": "default",
             "osType": "economic-classification:generic:level3:label",
@@ -440,8 +444,8 @@
           },
           {
             "title": "Descripción de Programa Presupuestario",
-            "name": "Descripción de Programa Presupuestario",
-            "slug": "Descripcion_de_Programa_Presupuestario",
+            "name": "DESC_PP",
+            "slug": "DESC_PP",
             "type": "string",
             "format": "default",
             "osType": "activity:generic:project:label",
@@ -449,8 +453,8 @@
           },
           {
             "title": "Descripción de Ramo",
-            "name": "Descripción de Ramo",
-            "slug": "Descripcion_de_Ramo",
+            "name": "ID_RAMO",
+            "slug": "ID_RAMO",
             "type": "string",
             "format": "default",
             "osType": "administrative-classification:generic:level1:label",
@@ -458,8 +462,8 @@
           },
           {
             "title": "Descripción de Subfunción",
-            "name": "Descripción de Subfunción",
-            "slug": "Descripcion_de_Subfuncion",
+            "name": "DESC_SUBFUNCION",
+            "slug": "DESC_SUBFUNCION",
             "type": "string",
             "format": "default",
             "osType": "functional-classification:generic:level3:label",
@@ -467,8 +471,8 @@
           },
           {
             "title": "Descripción de Tipo de Gasto",
-            "name": "Descripción de Tipo de Gasto",
-            "slug": "Descripcion_de_Tipo_de_Gasto",
+            "name": "DESC_TIPOGASTO",
+            "slug": "DESC_TIPOGASTO",
             "type": "string",
             "format": "default",
             "osType": "expenditure-type",
@@ -476,8 +480,8 @@
           },
           {
             "title": "Descripción de Unidad Responsable",
-            "name": "Descripción de Unidad Responsable",
-            "slug": "Descripcion_de_Unidad_Responsable",
+            "name": "DESC_UR",
+            "slug": "DESC_UR",
             "type": "string",
             "format": "default",
             "osType": "administrative-classification:generic:level2:label",
@@ -485,26 +489,26 @@
           },
           {
             "title": "Descripción de la Actividad Institucional",
-            "name": "Descripción de la Actividad Institucional",
-            "slug": "Descripcion_de_la_Actividad_Institucional",
+            "name": "DESC_AI",
+            "slug": "DESC_AI",
             "type": "string",
             "format": "default",
             "osType": "functional-classification:generic:level4:label",
             "conceptType": "functional-classification"
           },
           {
-            "title": "Descripción de la entidad federativa",
-            "name": "Descripción de la entidad federativa",
-            "slug": "Descripcion_de_la_entidad_federativa",
+            "title": "Descripción de la Entidad Federativa",
+            "name": "DESC_ENT_FED",
+            "slug": "DESC_ENT_FED",
             "type": "string",
             "format": "default",
             "osType": "geo-source:target:title",
             "conceptType": "geo-source"
           },
           {
-            "title": "Descripción de la modalidad del programa presupuestario",
-            "name": "Descripción de la modalidad del programa presupuestario",
-            "slug": "Descripcion_de_la_modalidad_del_programa_presupuestario",
+            "title": "Descripción de la Modalidad del Programa Presupuestario",
+            "name": "DESC_MODALIDAD",
+            "slug": "DESC_MODALIDAD",
             "type": "string",
             "format": "default",
             "osType": "activity:generic:program:label",
@@ -512,41 +516,41 @@
           },
           {
             "title": "Devengado",
-            "name": "Devengado",
-            "slug": "Devengado",
+            "name": "MONTO_DEVENGADO",
+            "slug": "MONTO_DEVENGADO",
             "type": "number",
             "format": "default",
             "osType": "value",
             "conceptType": "value",
             "decimalChar": ".",
-            "groupChar": ","
+            "groupChar": ""
           },
           {
             "title": "Ejercicio",
-            "name": "Ejercicio",
-            "slug": "Ejercicio",
+            "name": "MONTO_EJERCICIO",
+            "slug": "MONTO_EJERCICIO",
             "type": "number",
             "format": "default",
             "osType": "value",
             "conceptType": "value",
             "decimalChar": ".",
-            "groupChar": ","
+            "groupChar": ""
           },
           {
             "title": "Ejercido",
-            "name": "Ejercido",
-            "slug": "Ejercido",
+            "name": "MONTO_EJERCIDO",
+            "slug": "MONTO_EJERCIDO",
             "type": "number",
             "format": "default",
             "osType": "value",
             "conceptType": "value",
             "decimalChar": ".",
-            "groupChar": ","
+            "groupChar": ""
           },
           {
             "title": "Entidad Federativa",
-            "name": "Entidad Federativa",
-            "slug": "Entidad_Federativa",
+            "name": "ENTIDAD",
+            "slug": "ENTIDAD",
             "type": "string",
             "format": "default",
             "osType": "geo-source:target:code",
@@ -554,8 +558,8 @@
           },
           {
             "title": "Fuente de Financiamiento",
-            "name": "Fuente de Financiamiento",
-            "slug": "Fuente_de_Financiamiento",
+            "name": "ID_FF",
+            "slug": "ID_FF",
             "type": "string",
             "format": "default",
             "osType": "fin-source:generic:code",
@@ -563,8 +567,8 @@
           },
           {
             "title": "Función",
-            "name": "Función",
-            "slug": "Funcion",
+            "name": "ID_FUNCION",
+            "slug": "ID_FUNCION",
             "type": "string",
             "format": "default",
             "osType": "functional-classification:generic:level2:code:full",
@@ -572,8 +576,8 @@
           },
           {
             "title": "Grupo Funcional",
-            "name": "Grupo Funcional",
-            "slug": "Grupo_Funcional",
+            "name": "GPO_FUNCIONAL",
+            "slug": "GPO_FUNCIONAL",
             "type": "string",
             "format": "default",
             "osType": "functional-classification:generic:level1:code:full",
@@ -581,8 +585,8 @@
           },
           {
             "title": "Modalidad del Programa presupuestario",
-            "name": "Modalidad del Programa presupuestario",
-            "slug": "Modalidad_del_Programa_presupuestario",
+            "name": "ID_MODALIDAD",
+            "slug": "ID_MODALIDAD",
             "type": "string",
             "format": "default",
             "osType": "activity:generic:program:code",
@@ -590,30 +594,30 @@
           },
           {
             "title": "Modificado",
-            "name": "Modificado",
-            "slug": "Modificado",
+            "name": "MONTO_MODIFICADO",
+            "slug": "MONTO_MODIFICADO",
             "type": "number",
             "format": "default",
             "osType": "value",
             "conceptType": "value",
             "decimalChar": ".",
-            "groupChar": ","
+            "groupChar": ""
           },
           {
             "title": "Pagado",
-            "name": "Pagado",
-            "slug": "Pagado",
+            "name": "MONTO_PAGADO",
+            "slug": "MONTO_PAGADO",
             "type": "number",
             "format": "default",
             "osType": "value",
             "conceptType": "value",
             "decimalChar": ".",
-            "groupChar": ","
+            "groupChar": ""
           },
           {
             "title": "Partida Específica",
-            "name": "Partida Específica",
-            "slug": "Partida_Especifica",
+            "name": "PARTIDA_ESPECIFICA",
+            "slug": "PARTIDA_ESPECIFICA",
             "type": "string",
             "format": "default",
             "osType": "economic-classification:generic:level4:code:full",
@@ -621,8 +625,8 @@
           },
           {
             "title": "Partida Genérica",
-            "name": "Partida Genérica",
-            "slug": "Partida_Generica",
+            "name": "PARTIDA_GENERICA",
+            "slug": "PARTIDA_GENERICA",
             "type": "string",
             "format": "default",
             "osType": "economic-classification:generic:level3:code:full",
@@ -630,8 +634,8 @@
           },
           {
             "title": "Programa Presupuestario",
-            "name": "Programa Presupuestario",
-            "slug": "Programa_Presupuestario",
+            "name": "ID_PP",
+            "slug": "ID_PP",
             "type": "string",
             "format": "default",
             "osType": "activity:generic:project:code",
@@ -639,8 +643,8 @@
           },
           {
             "title": "Ramo",
-            "name": "Ramo",
-            "slug": "Ramo",
+            "name": "RAMO",
+            "slug": "RAMO",
             "type": "string",
             "format": "default",
             "osType": "administrative-classification:generic:level1:code:full",
@@ -648,8 +652,8 @@
           },
           {
             "title": "Subfunción",
-            "name": "Subfunción",
-            "slug": "Subfuncion",
+            "name": "ID_SUBFUNCION",
+            "slug": "ID_SUBFUNCION",
             "type": "string",
             "format": "default",
             "osType": "functional-classification:generic:level3:code:full",
@@ -657,8 +661,8 @@
           },
           {
             "title": "Unidad Responsable",
-            "name": "Unidad Responsable",
-            "slug": "Unidad_Responsable",
+            "name": "ID_UR",
+            "slug": "ID_UR",
             "type": "string",
             "format": "default",
             "osType": "administrative-classification:generic:level2:code:full",
@@ -666,24 +670,24 @@
           }
         ],
         "primaryKey": [
-          "Actividad Institucional",
-          "Capitulo",
-          "Ciclo",
-          "Clave de cartera",
-          "Concepto",
-          "Entidad Federativa",
-          "Función",
-          "Grupo Funcional",
-          "Modalidad del Programa presupuestario",
-          "Partida Específica",
-          "Partida Genérica",
-          "Programa Presupuestario",
-          "Ramo",
-          "Subfunción",
-          "Unidad Responsable"
+          "ID_AI",
+          "ID_CAPITULO",
+          "CICLO",
+          "ID_PPI",
+          "ID_CONCEPTO",
+          "ENTIDAD",
+          "ID_FUNCION",
+          "GPO_FUNCIONAL",
+          "ID_MODALIDAD",
+          "PARTIDA_ESPECIFICA",
+          "PARTIDA GENERICA",
+          "ID_PP",
+          "RAMO",
+          "ID_SUBFUNCION",
+          "ID_UR"
         ]
       }
     }
   ],
-  "@context": "http://schemas.frictionlessdata.io/fiscal-data-package.jsonld"
+  "@context": "http://schemas.frictionlessdata.io/fiscal-data-package.json"
 }
