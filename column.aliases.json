@@ -1,133 +1,60 @@
 {
-    "ID_UR": [
-        "Unidad Responsable",
-        "UNIDAD"
+    "RA": [
+        "Reasignacion",
+        "RA"
     ],
-    "GPO_FUNCIONAL": [
-        "Grupo Funcional",
-        "Finalidad",
-        "GF",
-        "Grupo Funcional"
+    "DESC_PP": [
+        "Descripción de Programa Presupuestario",
+        "PROGR_PRES_DESCRIPCION"
     ],
-    "MONTO_EJERCIDO": [
-        "Ejercido"
+    "ID_RAMO": [
+        "Ramo",
+        "RAMO"
     ],
     "ID_CONCEPTO": [
         "Objeto del Gasto",
         "Concepto"
     ],
-    "PP": [
-        "Programa Presupuestario"
-    ],
-    "MONTO_DEVENGADO": [
-        "Devengado"
-    ],
-    "DESC_CAPITULO": [
-        "Descripción de Capitulo"
-    ],
-    "DESC_ENT_FED": [
-        "Descripción de Entidad Federativa",
-        "Descripción de la entidad federativa",
-        "ENTIDAD_FED_DESCRIPCION"
-    ],
-    "DESC_CONCEPTO": [
-        "Descripción de Concepto",
-        "Descripción de Objeto del Gasto",
-        "CONCEPTO_DESCRIPCION"
-    ],
-    "RA": [
-        "Reasignacion",
-        "RA"
-    ],
-    "ID_CAPITULO": [
-        "Capitulo"
-    ],
-    "MONTO_PAGADO": [
-        "Pagado"
-    ],
-    "ID_PPI": [
-        "Clave de cartera",
-        "CLAVE_CARTERA"
-    ],
-    "ID_MODALIDAD": [
-        "Modalidad del Programa presupuestario",
-        "MOD",
-        "Identificador de Programa Presupuestario",
-        "Identificador del Programa Presupuestario"
-    ],
-    "DESC_RAMO": [
-        "Descripción de Ramo",
-        "RAMO_DESCRIPCION"
-    ],
-    "PARTIDA_GENERICA": [
-        "Partida Genérica"
-    ],
-    "PARTIDA_ESPECIFICA": [
-        "Partida Específica"
-    ],
-    "ID_AI": [
-        "Actividad Institucional",
-        "AI"
-    ],
-    "DESC_PARTIDA_ESPECIFICA": [
-        "Descripción de Partida Específica",
-        "Descripcion de Partida Específica"
+    "MONTO_MODIFICADO": [
+        "Modificado"
     ],
     "DESC_SUBFUNCION": [
         "Descripción de Subfunción",
         "SUBFUNCIONL_DESCRIPCION",
         "Descripción de subfunción"
     ],
-    "DESC_MODALIDAD": [
-        "Descripción de la modalidad del programa presupuestario",
-        "MODALIDAD_DESCRIPCION",
-        "Descripción del Identificador del Programa Presupuestario",
-        "Descripción del Identificador de Programa Presupuestario"
+    "DESC_UR": [
+        "Descripción de Unidad Responsable",
+        "UNIDAD_DESCRIPCION"
     ],
-    "DESC_PP": [
-        "Descripción de Programa Presupuestario",
-        "PROGR_PRES_DESCRIPCION"
+    "CICLO": [
+        "Ciclo"
     ],
     "DESC_TIPOGASTO": [
         "Descripción de Tipo de Gasto",
         "TIPO_GASTO_DESCRIPCION"
     ],
-    "ID_SUBFUNCION": [
-        "Subfunción",
-        "SF"
+    "ID_PP": [
+        "PP",
+        "Programa Presupuestario"
     ],
-    "ENTIDAD": [
-        "Entidad Federativa",
-        "EF"
+    "DESC_RAMO": [
+        "Descripción de Ramo",
+        "RAMO_DESCRIPCION"
     ],
-    "MONTO_ADEFAS": [
-        "Adefas",
-        "ADEFAS"
+    "DESC_CONCEPTO": [
+        "Descripción de Concepto",
+        "Descripción de Objeto del Gasto",
+        "CONCEPTO_DESCRIPCION"
     ],
-    "DESC_PARTIDA_GENERICA": [
-        "Descripción de Partida Genérica"
+    "PARTIDA_ESPECIFICA": [
+        "Partida Específica"
     ],
-    "DESC_FF": [
-        "Descripción de Fuente de Financiamiento",
-        "FUENTE_FINAN_DESCRIPCION"
+    "DESC_CAPITULO": [
+        "Descripción de Capitulo"
     ],
-    "DESC_AI": [
-        "Descripción de la Actividad Institucional",
-        "ACTIVIDAD_INST_DESCRIPCION",
-        "Descripción de Actividad Institucional"
-    ],
-    "ID_FF": [
-        "Fuente de Financiamiento",
-        "FF",
-        "Fuente de Finaciamiento"
-    ],
-    "DESC_FUNCION": [
-        "Descripción de Función",
-        "FUNCIONL_DESCRIPCION"
-    ],
-    "DESC_REASIGNATION": [
-        "Descripción de Reasignacion",
-        "REASIGNACION_DESCRIPCION"
+    "MONTO_EJERCIDO": [
+        "Ejercido"
     ],
     "MONTO_APROBADO": [
         "Aprobado",
@@ -135,35 +62,109 @@
         "Importe Presupuesto de Egresos de la Federación",
         "Importe Presupuesto de Egresos de la Federación (PEF)"
     ],
+    "ID_TIPOGASTO": [
+        "TG",
+        "Tipo de Gasto"
+    ],
+    "ID_MODALIDAD": [
+        "Modalidad del Programa presupuestario",
+        "MOD",
+        "Identificador de Programa Presupuestario",
+        "Identificador del Programa Presupuestario"
+    ],
+    "MONTO_PAGADO": [
+        "Pagado"
+    ],
+    "ID_FUNCION": [
+        "Función",
+        "FN"
+    ],
+    "ID_CAPITULO": [
+        "Capitulo"
+    ],
+    "GPO_FUNCIONAL": [
+        "Grupo Funcional",
+        "Finalidad",
+        "GF",
+        "Grupo Funcional"
+    ],
     "DESC_GPO_FUNCIONAL": [
         "Descripción de Grupo Funcional",
         "Descripción de Finalidad",
         "GRUPO_FUN_DESCRIPCION",
         "Descripción de Grupo Funcional"
     ],
-    "ID_FUNCION": [
-        "Función",
-        "FN"
+    "DESC_AI": [
+        "Descripción de la Actividad Institucional",
+        "ACTIVIDAD_INST_DESCRIPCION",
+        "Descripción de Actividad Institucional"
     ],
-    "ID_TIPOGASTO": [
-        "TG",
-        "Tipo de Gasto"
+    "DESC_MODALIDAD": [
+        "Descripción de la modalidad del programa presupuestario",
+        "MODALIDAD_DESCRIPCION",
+        "Descripción del Identificador del Programa Presupuestario",
+        "Descripción del Identificador de Programa Presupuestario"
     ],
-    "CICLO": [
-        "Ciclo"
+    "ID_UR": [
+        "Unidad Responsable",
+        "UNIDAD"
     ],
-    "DESC_UR": [
-        "Descripción de Unidad Responsable",
-        "UNIDAD_DESCRIPCION"
+    "ENTIDAD": [
+        "Entidad Federativa",
+        "EF"
+    ],
+    "ID_FF": [
+        "Fuente de Financiamiento",
+        "FF",
+        "Fuente de Finaciamiento"
+    ],
+    "MONTO_DEVENGADO": [
+        "Devengado"
+    ],
+    "DESC_PARTIDA_ESPECIFICA": [
+        "Descripción de Partida Específica",
+        "Descripcion de Partida Específica"
+    ],
+    "DESC_REASIGNATION": [
+        "Descripción de Reasignacion",
+        "REASIGNACION_DESCRIPCION"
     ],
     "MONTO_EJERCICIO": [
         "Ejercicio"
     ],
-    "MONTO_MODIFICADO": [
-        "Modificado"
+    "DESC_FUNCION": [
+        "Descripción de Función",
+        "FUNCIONL_DESCRIPCION"
     ],
-    "ID_RAMO": [
-        "Ramo",
-        "RAMO"
+    "ID_AI": [
+        "Actividad Institucional",
+        "AI"
+    ],
+    "DESC_PARTIDA_GENERICA": [
+        "Descripción de Partida Genérica"
+    ],
+    "ID_SUBFUNCION": [
+        "Subfunción",
+        "SF"
+    ],
+    "PARTIDA_GENERICA": [
+        "Partida Genérica"
+    ],
+    "DESC_ENT_FED": [
+        "Descripción de Entidad Federativa",
+        "Descripción de la entidad federativa",
+        "ENTIDAD_FED_DESCRIPCION"
+    ],
+    "MONTO_ADEFAS": [
+        "Adefas",
+        "ADEFAS"
+    ],
+    "ID_PPI": [
+        "Clave de cartera",
+        "CLAVE_CARTERA"
+    ],
+    "DESC_FF": [
+        "Descripción de Fuente de Financiamiento",
+        "FUENTE_FINAN_DESCRIPCION"
     ]
 }

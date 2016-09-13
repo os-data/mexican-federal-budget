@@ -142,7 +142,8 @@
         "Descripción de Unidad Responsable",
         "UNIDAD_DESCRIPCION"
     ],
-    "PP": [
+    "ID_PP": [
+	"PP",
         "Programa Presupuestario"
     ],
     "DESC_SUBFUNCION": [
