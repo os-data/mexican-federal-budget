@@ -740,5 +740,5 @@
     "title": "Presupuesto M\u00e9xico 2008-2016",
     "author": "loic jounot <loic.jounot@gmail.com>",
     "@context": "http://schemas.frictionlessdata.io/fiscal-data-package.json",
-    "name": "presupuesto-mexico-v1"
+    "name": "mexico-presupuesto"
 }
