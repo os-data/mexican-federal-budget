@@ -1,0 +1,784 @@
+{
+  "author": "loic jounot <loic.jounot@gmail.com>",
+  "countryCode": "MX",
+  "title": "Presupuesto México 2008-2016",
+  "resources": [
+    {
+      "bytes": 1171130502,
+      "encoding": "utf-8",
+      "schema": {
+        "primaryKey": [
+          "CICLO",
+          "ID_ENTIDAD_FEDERATIVA",
+          "GPO_FUNCIONAL",
+          "ID_AI",
+          "ID_CAPITULO",
+          "ID_CONCEPTO",
+          "ID_FUNCION",
+          "ID_MODALIDAD",
+          "ID_CLAVE_CARTERA",
+          "ID_RAMO",
+          "ID_SUBFUNCION",
+          "ID_UR",
+          "ID_PARTIDA_ESPECIFICA",
+          "ID_PARTIDA_GENERICA",
+          "ID_PP"
+        ],
+        "fields": [
+          {
+            "osType": "date:fiscal-year",
+            "Description": "Ciclo",
+            "title": "Ciclo",
+            "slug": "Ciclo",
+            "description": "Determina el ciclo presupuestario de referencia. Esta información está disponible de 2008 a 2016.",
+            "format": "default",
+            "type": "integer",
+            "conceptType": "date",
+            "name": "CICLO"
+          },
+          {
+            "osType": "functional-classification:generic:level4:label",
+            "Description": "Descripción de Actividad Institucional",
+            "title": "Descripción de Actividad Institucional",
+            "slug": "Descripcion_de_Actividad_Institucional",
+            "description": "Descripción de las acciones sustantivas o de apoyo que realizan los ejecutores de gasto con el fin de dar cumplimiento a los objetivos y metas contenidos en los programas, de conformidad con las atribuciones que les señala su respectiva ley orgánica o el ordenamiento jurídico que les es aplicable. Esta información está disponible de 2008 a 2016.",
+            "format": "default",
+            "type": "string",
+            "conceptType": "functional-classification",
+            "name": "DESC_AI"
+          },
+          {
+            "osType": "economic-classification:generic:level1:label",
+            "Description": "Descripción de Capitulo",
+            "title": "Descripción de Capitulo",
+            "slug": "Descripcion_de_Capitulo",
+            "description": "Es la descripción de la clave contenida en la columna “Capítulo”, que representa el conjunto homogéneo y ordenado de bienes y servicios requeridos por las dependencias y entidades de todos los niveles de gobierno, a que corresponde al mayor nivel de agregación del Clasificador por Objeto del Gasto. Esta información está disponible de 2008 a 2016.",
+            "format": "default",
+            "type": "string",
+            "conceptType": "economic-classification",
+            "name": "DESC_CAPITULO"
+          },
+          {
+            "osType": "economic-classification:generic:level2:label",
+            "Description": "Descripción de Concepto",
+            "title": "Descripción de Concepto",
+            "slug": "Descripcion_de_Concepto",
+            "description": "Es la descripción de la clave contenida en la columna “Concepto”, que representa el segundo nivel de agregación del Clasificador por Objeto del Gasto, que sirve para identificar, en cada Capítulo, los subconjuntos homogéneos y ordenados de bienes y servicios que requieren las Entidades y Dependencias de todos los niveles de gobierno. En la clave del Clasificador por Objeto del Gasto, corresponde al segundo dígito de izquierda a derecha. Esta información está disponible de 2008 a 2016. ",
+            "format": "default",
+            "type": "string",
+            "conceptType": "economic-classification",
+            "name": "DESC_CONCEPTO"
+          },
+          {
+            "osType": "geo-source:target:title",
+            "Description": "Descripción de Entidad Federativa",
+            "title": "Descripción de Entidad Federativa",
+            "slug": "Descripcion_de_Entidad_Federativa",
+            "description": "Nombre de la entidad federativa, de acuerdo con el “Catálogo de entidades federativas, municipios y localidades” elaborado por el INEGI. Esta información está disponible de 2012 a 2016. ",
+            "format": "default",
+            "type": "string",
+            "conceptType": "geo-source",
+            "name": "ENTIDAD_FEDERATIVA"
+          },
+          {
+            "osType": "fin-source:generic:label",
+            "Description": "Descripción de Fuente de Financiamiento",
+            "title": "Descripción de Fuente de Financiamiento",
+            "slug": "Descripcion_de_Fuente_de_Financiamiento",
+            "description": "Es la descripción de la clave contenida en la columna “Fuente de Financiamiento”, que corresponde a las asignaciones conforme al origen de su financiamiento. Incluye recursos fiscales, gasto financiado con recursos externos, contraparte nacional y recursos propios. Esta información está disponible de 2008 a 2016.",
+            "format": "default",
+            "type": "string",
+            "conceptType": "fin-source",
+            "name": "DESC_FF"
+          },
+          {
+            "osType": "functional-classification:generic:level2:label",
+            "Description": "Descripción de Función",
+            "title": "Descripción de Función",
+            "slug": "Descripcion_de_Funcion",
+            "description": "Descripción de la clave contenida en la columna “Función”, que se refiere al Segundo nivel (o dígito) de la Clasificación Funcional del Gasto que permite identificar las acciones que realizan las Unidades Responsables para cumplir con los ordenamientos legales, de acuerdo con cada uno de los Grupos Funcionales. Esta información está disponible de 2008 a 2016.",
+            "format": "default",
+            "type": "string",
+            "conceptType": "functional-classification",
+            "name": "DESC_FUNCION"
+          },
+          {
+            "osType": "functional-classification:generic:level1:label",
+            "Description": "Descripción de Grupo Funcional",
+            "title": "Descripción de Grupo Funcional",
+            "slug": "Descripcion_de_Grupo_Funcional",
+            "description": "Descripción de la clave contenida en la columna “Grupo Funcional”, que se refiere al Primer nivel (o dígito) de la Clasificación Funcional del Gasto que permite identificar las actividades que realiza el Estado para cumplir con sus fines de: Desarrollo Social, Desarrollo Económico y Gobierno. Esta información está disponible de 2008 a 2016.",
+            "format": "default",
+            "type": "string",
+            "conceptType": "functional-classification",
+            "name": "DESC_GPO_FUNCIONAL"
+          },
+          {
+            "osType": "activity:generic:program:label",
+            "Description": "Descripción de la modalidad del programa presupuestario",
+            "title": "Descripción de la modalidad del programa presupuestario",
+            "slug": "Descripcion_de_la_modalidad_del_programa_presupuestario",
+            "description": "Descripción de la clave contenida en la columna “Modalidad del Programa Presupuestario” que permite identificar a los programas según el tipo de servicios/productos que otorgan o su naturaleza específica: (consulta las modalidades en http://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Metadatos/Catalogos_Presupuestarios_2016.xlsx). Esta información está disponible de 2008 a 2016.",
+            "format": "default",
+            "type": "string",
+            "conceptType": "activity",
+            "name": "DESC_MODALIDAD"
+          },
+          {
+            "osType": "economic-classification:generic:level4:label",
+            "Description": "Descripción de Partida Específica",
+            "title": "Descripción de Partida Específica",
+            "slug": "Descripcion_de_Partida_Especifica",
+            "description": "Descripción de la clave contenida en la columna “Partida Específica” que sirve para identificar, al interior de la Partida Genérica, los bienes y servicios específicos que requieren las Entidades y Dependencias en cada uno de los niveles de gobierno. Esta información está disponible de 2011 a 2015.",
+            "format": "default",
+            "type": "string",
+            "conceptType": "economic-classification",
+            "name": "DESC_PARTIDA_ESPECIFICA"
+          },
+          {
+            "osType": "economic-classification:generic:level3:label",
+            "Description": "Descripción de Partida Genérica",
+            "title": "Descripción de Partida Genérica",
+            "slug": "Descripcion_de_Partida_Generica",
+            "description": "Descripción de la clave contenida en la columna “Partida Genérica” que sirve para identificar, por Concepto, bienes y servicios idénticos y armonizados a través de todos los niveles de gobierno. Esta información está disponible de 2008 a 2015. ",
+            "format": "default",
+            "type": "string",
+            "conceptType": "economic-classification",
+            "name": "DESC_PARTIDA_GENERICA"
+          },
+          {
+            "osType": "activity:generic:project:label",
+            "Description": "Descripción de Programa Presupuestario",
+            "title": "Descripción de Programa Presupuestario",
+            "slug": "Descripcion_de_Programa_Presupuestario",
+            "description": "Nombre del Programa Presupuestario federal de acuerdo con la estructura programática vigente para cada ciclo. Por programa presupuestario se entiende a la categoría que permite organizar, en forma representativa y homogénea, las asignaciones de recursos de los programas federales y del gasto federalizado a cargo de los ejecutores del mismo, para el cumplimiento de sus objetivos y metas. Esta información está disponible de 2008 a 2016. ",
+            "format": "default",
+            "type": "string",
+            "conceptType": "activity",
+            "name": "DESC_PP"
+          },
+          {
+            "osType": "administrative-classification:generic:level1:label",
+            "Description": "Descripción de Ramo",
+            "title": "Descripción de Ramo",
+            "slug": "Descripcion_de_Ramo",
+            "description": "Clave del Ramo de acuerdo con la estructura programática del Presupuesto de Egresos de la Federación  vigente para cada ciclo (consulta los ramos en http://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Metadatos/Catalogos_Presupuestarios_2016.xlsx). Esta información está disponible de 2008 a 2016.",
+            "format": "default",
+            "type": "string",
+            "conceptType": "administrative-classification",
+            "name": "DESC_RAMO"
+          },
+          {
+            "osType": "functional-classification:generic:level3:label",
+            "Description": "Descripción de Subfunción",
+            "title": "Descripción de Subfunción",
+            "slug": "Descripcion_de_Subfuncion",
+            "description": "Descripción de la clave contenida en la columna “Subfunción” que se refiere a las actividades que realizan las dependencias y entidades al interior de una función. Esta información está disponible de 2008 a 2016.",
+            "format": "default",
+            "type": "string",
+            "conceptType": "functional-classification",
+            "name": "DESC_SUBFUNCION"
+          },
+          {
+            "osType": "expenditure-type:label",
+            "Description": "Descripción de Tipo de Gasto",
+            "title": "Descripción de Tipo de Gasto",
+            "slug": "Descripcion_de_Tipo_de_Gasto",
+            "description": "Descripción de la clave contenida en la columna “Tipo de Gasto” que relaciona las transacciones públicas que generan gastos con los grandes agregados de la clasificación económica presentándolos en Corriente; de Capital; Amortización de la deuda y disminución de pasivos; Pensiones y Jubilaciones, y Participaciones. Esta información está disponible de 2008 a 2016.",
+            "format": "default",
+            "type": "string",
+            "conceptType": "expenditure-type",
+            "name": "DESC_TIPOGASTO"
+          },
+          {
+            "osType": "administrative-classification:generic:level2:label",
+            "Description": "Descripción de Unidad Responsable",
+            "title": "Descripción de Unidad Responsable",
+            "slug": "Descripcion_de_Unidad_Responsable",
+            "description": "Descripción de la clave contenida en la columna “Unidad Responsable”, que se refiere al ejecutor directo del gasto. Esta información está disponible de 2008 a 2016.",
+            "format": "default",
+            "type": "string",
+            "conceptType": "administrative-classification",
+            "name": "DESC_UR"
+          },
+          {
+            "osType": "geo-source:target:code",
+            "Description": "Entidad Federativa",
+            "title": "Entidad Federativa",
+            "slug": "Entidad_Federativa",
+            "description": "Clave de la entidad federativa, de acuerdo con el “Catálogo de entidades federativas, municipios y localidades” que elabora el Instituto Nacional de Estadística y Geografía (INEGI). Esta información está disponible de 2012 a 2016.",
+            "format": "default",
+            "type": "string",
+            "conceptType": "geo-source",
+            "name": "ID_ENTIDAD_FEDERATIVA"
+          },
+          {
+            "osType": "functional-classification:generic:level1:code:full",
+            "Description": "Grupo Funcional",
+            "title": "Grupo Funcional",
+            "slug": "Grupo_Funcional",
+            "description": "Primer nivel (o dígito) de la Clasificación Funcional del Gasto que permite identificar las actividades que realiza el Estado para cumplir con sus fines de: Desarrollo Social, Desarrollo Económico y Gobierno. Esta información está disponible de 2008 a 2016.",
+            "format": "default",
+            "type": "string",
+            "conceptType": "functional-classification",
+            "name": "GPO_FUNCIONAL"
+          },
+          {
+            "osType": "functional-classification:generic:level4:code:full",
+            "Description": "Actividad Institucional",
+            "title": "Actividad Institucional",
+            "slug": "Actividad_Institucional",
+            "description": "Acciones sustantivas o de apoyo que realizan los ejecutores de gasto con el fin de dar cumplimiento a los objetivos y metas contenidos en los programas, de conformidad con las atribuciones que les señala su respectiva ley orgánica o el ordenamiento jurídico que les es aplicable (3 dígitos). Esta información está disponible de 2008 a 2016.",
+            "format": "default",
+            "type": "string",
+            "conceptType": "functional-classification",
+            "name": "ID_AI"
+          },
+          {
+            "osType": "economic-classification:generic:level1:code:full",
+            "Description": "Capítulo",
+            "title": "Capítulo",
+            "slug": "Capitulo",
+            "description": "Corresponde a la clave para el mayor nivel de agregación del Clasificador por Objeto del Gasto, que sirve para identificar conjuntos homogéneos y ordenados de bienes y servicios requeridos por las Entidades y Dependencias de todos los niveles de gobierno. En la clave del Clasificador por Objeto del Gasto, puede identificarse con el primer dígito de izquierda a derecha. Esta información está disponible de 2008 a 2016.",
+            "format": "default",
+            "type": "string",
+            "conceptType": "economic-classification",
+            "name": "ID_CAPITULO"
+          },
+          {
+            "osType": "economic-classification:generic:level2:code:full",
+            "Description": "Concepto",
+            "title": "Concepto",
+            "slug": "Concepto",
+            "description": "Corresponde a la clave para el segundo nivel de agregación del Clasificador por Objeto del Gasto, que sirve para identificar, en cada Capítulo, los subconjuntos homogéneos y ordenados de bienes y servicios que requieren las Entidades y Dependencias de todos los niveles de gobierno. En la clave del Clasificador por Objeto del Gasto corresponde al segundo dígito de izquierda a derecha. Esta información está disponible de 2008 a 2016.",
+            "format": "default",
+            "type": "string",
+            "conceptType": "economic-classification",
+            "name": "ID_CONCEPTO"
+          },
+          {
+            "osType": "fin-source:generic:code",
+            "Description": "Fuente de Finaciamiento",
+            "title": "Fuente de Finaciamiento",
+            "slug": "Fuente_de_Finaciamiento",
+            "description": "Clave utilizada para identificar las asignaciones conforme al origen de su financiamiento en recursos fiscales, propios, o provenientes de crédito externo o donativo del exterior. Esta información está disponible de 2008 a 2016. ",
+            "format": "default",
+            "type": "string",
+            "conceptType": "fin-source",
+            "name": "ID_FF"
+          },
+          {
+            "osType": "functional-classification:generic:level2:code:full",
+            "Description": "Función",
+            "title": "Función",
+            "slug": "Funcion",
+            "description": "Clave del segundo nivel (o dígito) de la Clasificación Funcional del Gasto que permite identificar las acciones que realizan las Unidades Responsables para cumplir con los ordenamientos legales, de acuerdo con cada uno de los Grupos Funcionales. Esta información está disponible de 2008 a 2016.",
+            "format": "default",
+            "type": "string",
+            "conceptType": "functional-classification",
+            "name": "ID_FUNCION"
+          },
+          {
+            "osType": "activity:generic:program:code",
+            "Description": "Modalidad del Programa presupuestario",
+            "title": "Modalidad del Programa presupuestario",
+            "slug": "Modalidad_del_Programa_presupuestario",
+            "description": "Clave que permite identificar a los programas según el tipo de servicios/productos que otorgan o su naturaleza específica: (consulta las modalidades en http://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Metadatos/Catalogos_Presupuestarios_2016.xlsx). Esta información está disponible de 2008 a 2016. ",
+            "format": "default",
+            "type": "string",
+            "conceptType": "activity",
+            "name": "ID_MODALIDAD"
+          },
+          {
+            "osType": "budget-line-id",
+            "Description": "Clave de cartera",
+            "title": "Clave de cartera",
+            "slug": "Clave_de_cartera",
+            "description": "Clave que se asigna a un programa o proyecto de inversión una vez que obtiene su registro en la cartera de programas y proyectos de inversión, de conformidad con lo establecido en los artículos 34, fracción III, de la Ley Federal de Presupuesto y Responsabilidad Hacendaria, y 46 del Reglamento de la Ley Federal de Presupuesto y Responsabilidad Hacendaria. Esta información está disponible de 2012 a 2016.",
+            "format": "default",
+            "type": "string",
+            "conceptType": "budget-line-id",
+            "name": "ID_CLAVE_CARTERA"
+          },
+          {
+            "osType": "administrative-classification:generic:level1:code:full",
+            "Description": "RAMO",
+            "title": "RAMO",
+            "slug": "Ramo",
+            "description": "Clave del Ramo de acuerdo con la estructura programática del Presupuesto de Egresos de la Federación vigente para cada ciclo (consulta los ramos en http://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Metadatos/Catalogos_Presupuestarios_2016.xlsx). Esta información está disponible de 2008 a 2016.  De 2008 a 2012 no incluye los ramos relativos a Entidades de Control Directo (50 – Instituto Mexicano del Seguro Social y 51 – Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado) y Empresas Productivas del Estado (52 – Petróleos Mexicanos y 53 – Comisión Federal de Electricidad) ya que no se cuenta con la información consolidada para dichos años.",
+            "format": "default",
+            "type": "string",
+            "conceptType": "administrative-classification",
+            "name": "ID_RAMO"
+          },
+          {
+            "osType": "functional-classification:generic:level3:code:full",
+            "Description": "Subfunción",
+            "title": "Subfunción",
+            "slug": "Subfuncion",
+            "description": "Clave del tercer nivel (o dígito) de la clasificación funcional del gasto que identifica en forma más precisa las actividades que realizan las dependencias y entidades al interior de una función. Esta información está disponible de 2008 a 2016. ",
+            "format": "default",
+            "type": "string",
+            "conceptType": "functional-classification",
+            "name": "ID_SUBFUNCION"
+          },
+          {
+            "osType": "expenditure-type:code",
+            "Description": "Tipo de Gasto",
+            "title": "Tipo de Gasto",
+            "slug": "Tipo_de_Gasto",
+            "description": "Clave que sirve para relacionar las transacciones públicas que generan gastos con los grandes agregados de la clasificación económica presentándolos en Corriente; de Capital; Amortización de la deuda y disminución de pasivos; Pensiones y Jubilaciones; y Participaciones. Esta información está disponible de 2008 a 2016.",
+            "format": "default",
+            "type": "string",
+            "conceptType": "expenditure-type",
+            "name": "ID_TIPOGASTO"
+          },
+          {
+            "osType": "administrative-classification:generic:level2:code:full",
+            "Description": "Unidad Responsable",
+            "title": "Unidad Responsable",
+            "slug": "Unidad_Responsable",
+            "description": "Clave para identificar de manera única a cada dependencia, institución, entidad o empresa productiva del estado, que ejecuta directamente el gasto. Esta información está disponible de 2008 a 2016.",
+            "format": "default",
+            "type": "string",
+            "conceptType": "administrative-classification",
+            "name": "ID_UR"
+          },
+          {
+            "osType": "value",
+            "Description": "Adefas",
+            "type": "number",
+            "title": "Adefas",
+            "slug": "Adefas",
+            "description": "Los adeudos de ejercicios fiscales anteriores (ADEFAS) son los gastos devengados y no pagados al último día de cada ejercicio fiscal, derivados del ejercicio del Presupuesto de Egresos, incluido el gasto devengado de las dependencias cuya cuenta por liquidar correspondiente está pendiente de presentarse a la Tesorería, así como las cuentas por liquidar presentadas a ésta que quedaron pendientes de pago. Esta información está disponible para los años 2014 y 2015.",
+            "format": "default",
+            "groupChar": ",",
+            "decimalChar": ".",
+            "conceptType": "value",
+            "name": "MONTO_ADEFAS"
+          },
+          {
+            "osType": "value",
+            "Description": "Aprobado",
+            "type": "number",
+            "title": "Aprobado",
+            "slug": "Aprobado",
+            "description": "Son las asignaciones presupuestarias anuales comprendidas en el Presupuesto de Egresos a nivel de clave presupuestaria en el caso de los ramos autónomos, administrativos y generales, y a nivel de los rubros de gasto que aparecen en las carátulas de flujo de efectivo para las entidades. Esta información está disponible de 2008 a 2016.",
+            "format": "default",
+            "groupChar": ",",
+            "decimalChar": ".",
+            "conceptType": "value",
+            "name": "MONTO_APROBADO"
+          },
+          {
+            "osType": "value",
+            "Description": "Devengado",
+            "type": "number",
+            "title": "Devengado",
+            "slug": "Devengado",
+            "description": "El gasto devengado es el momento contable del gasto que refleja el reconocimiento de una obligación de pago a favor de terceros por la recepción de conformidad de bienes, servicios y obras oportunamente contratados; así como de las obligaciones que derivan de tratados, leyes, decretos, resoluciones y sentencias definitivas. Esta información está disponible de 2013 a 2015.",
+            "format": "default",
+            "groupChar": ",",
+            "decimalChar": ".",
+            "conceptType": "value",
+            "name": "MONTO_DEVENGADO"
+          },
+          {
+            "osType": "value",
+            "Description": "Ejercicio",
+            "type": "number",
+            "title": "Ejercicio",
+            "slug": "Ejercicio",
+            "description": "Monto que resulta de sumar al gasto pagado en un ejercicio fiscal, los adeudos de ese ejercicio pagados en el siguiente ejercicio fiscal, para el Gobierno Federal. Esta información está disponible en 2014 y 2015. Las Entidades de Control Directo (50 – Instituto Mexicano del Seguro Social y 51 – Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado) y las Empresas Productivas del Estado (52 – Petróleos Mexicanos y 53 – Comisión Federal de Electricidad) no cuentan con ADEFAS.",
+            "format": "default",
+            "groupChar": ",",
+            "decimalChar": ".",
+            "conceptType": "value",
+            "name": "MONTO_EJERCICIO"
+          },
+          {
+            "osType": "value",
+            "Description": "Ejercido",
+            "type": "number",
+            "title": "Ejercido",
+            "slug": "Ejercido",
+            "description": "El gasto ejercido es el momento contable del gasto que refleja la emisión de una cuenta por liquidar certificada debidamente aprobada por la autoridad competente. Esta información está disponible de 2008 a 2013.",
+            "format": "default",
+            "groupChar": ",",
+            "decimalChar": ".",
+            "conceptType": "value",
+            "name": "MONTO_EJERCIDO"
+          },
+          {
+            "osType": "value",
+            "Description": "Modificado",
+            "type": "number",
+            "title": "Modificado",
+            "slug": "Modificado",
+            "description": "Momento contable del gasto que refleja la asignación presupuestaria que resulta de incorporar, en su caso, las adecuaciones presupuestarias al presupuesto aprobado. Esta información está disponible para los años 2014 y 2015.",
+            "format": "default",
+            "groupChar": ",",
+            "decimalChar": ".",
+            "conceptType": "value",
+            "name": "MONTO_MODIFICADO"
+          },
+          {
+            "osType": "value",
+            "Description": "Pagado",
+            "type": "number",
+            "title": "Pagado",
+            "slug": "Pagado",
+            "description": "Momento contable del gasto que refleja la cancelación total o parcial de las obligaciones de pago, que se concreta mediante el desembolso de efectivo o cualquier otro medio de pago. Esta información está disponible para los años 2014 y 2015.",
+            "format": "default",
+            "groupChar": ",",
+            "decimalChar": ".",
+            "conceptType": "value",
+            "name": "MONTO_PAGADO"
+          },
+          {
+            "osType": "economic-classification:generic:level4:code:full",
+            "Description": "Partida Específica",
+            "title": "Partida Específica",
+            "slug": "Partida_Especifica",
+            "description": "Clave de cinco dígitos del Clasificador por Objeto del Gasto. Sirve para identificar, al interior de la Partida Genérica, los bienes y servicios específicos que requieren las Entidades y Dependencias en cada uno de los niveles de gobierno. Esta información está disponible de 2011 a 2015.",
+            "format": "default",
+            "type": "string",
+            "conceptType": "economic-classification",
+            "name": "ID_PARTIDA_ESPECIFICA"
+          },
+          {
+            "osType": "economic-classification:generic:level3:code:full",
+            "Description": "Partida Genérica",
+            "title": "Partida Genérica",
+            "slug": "Partida_Generica",
+            "description": "Clave del Clasificador por Objeto del Gasto. Sirve para identificar, por Concepto, bienes y servicios idénticos y armonizados a través de todos los niveles de gobierno.  Esta información está disponible de 2008 a 2015. De 2008 a 2010 la Partida Genérica es una clave de 4 dígitos, mientras de 2011 a 2015 es una clave de 3 dígitos.",
+            "format": "default",
+            "type": "string",
+            "conceptType": "economic-classification",
+            "name": "ID_PARTIDA_GENERICA"
+          },
+          {
+            "osType": "activity:generic:project:code",
+            "Description": "Programa Presupuestario",
+            "title": "Programa Presupuestario",
+            "slug": "Programa_Presupuestario",
+            "description": "Clave asignada a cada programa presupuestario, cuyos dígitos se asignan de manera consecutiva al interior de la modalidad de que se trate. Por programa presupuestario se entiende a la categoría que permite organizar, en forma representativa y homogénea, las asignaciones de recursos de los programas federales y del gasto federalizado a cargo de los ejecutores del mismo, para el cumplimiento de sus objetivos y metas. Esta información está disponible de 2008 a 2016. ",
+            "format": "default",
+            "type": "string",
+            "conceptType": "activity",
+            "name": "ID_PP"
+          }
+        ]
+      },
+      "format": "csv",
+      "dialect": {
+        "lineTerminator": "\n",
+        "csvddfVersion": 1,
+        "delimiter": ","
+      },
+      "path": "mexican_federal_budget.csv",
+      "mediatype": "text/csv",
+      "name": "presupuesto-mexico-2008-2016"
+    }
+  ],
+  "@context": "http://schemas.frictionlessdata.io/fiscal-data-package.json",
+  "regionCode": "na",
+  "model": {
+    "dimensions": {
+      "administrative-classification": {
+        "primaryKey": [
+          "Ramo",
+          "Unidad_Responsable"
+        ],
+        "attributes": {
+          "Descripcion_de_Unidad_Responsable": {
+            "labelfor": "Unidad_Responsable",
+            "source": "DESC_UR",
+            "title": "Descripción de Unidad Responsable"
+          },
+          "Ramo": {
+            "source": "ID_RAMO",
+            "title": "Ramo"
+          },
+          "Unidad_Responsable": {
+            "source": "ID_UR",
+            "title": "Unidad Responsable",
+            "parent": "Ramo"
+          },
+          "Descripcion_de_Ramo": {
+            "labelfor": "Ramo",
+            "source": "DESC_RAMO",
+            "title": "Descripción de Ramo"
+          }
+        },
+        "classificationType": "administrative",
+        "dimensionType": "classification"
+      },
+      "functional-classification": {
+        "primaryKey": [
+          "Grupo_Funcional",
+          "Funcion",
+          "Subfuncion",
+          "Actividad_Institucional"
+        ],
+        "attributes": {
+          "Subfuncion": {
+            "source": "ID_SUBFUNCION",
+            "title": "Subfunción",
+            "parent": "Funcion"
+          },
+          "Descripcion_de_Actividad_Institucional": {
+            "labelfor": "Actividad_Institucional",
+            "source": "DESC_AI",
+            "title": "Descripción de Actividad Institucional"
+          },
+          "Funcion": {
+            "source": "ID_FUNCION",
+            "title": "Función",
+            "parent": "Grupo_Funcional"
+          },
+          "Descripcion_de_Subfuncion": {
+            "labelfor": "Subfuncion",
+            "source": "DESC_SUBFUNCION",
+            "title": "Descripción de Subfunción"
+          },
+          "Descripcion_de_Grupo_Funcional": {
+            "labelfor": "Grupo_Funcional",
+            "source": "DESC_GPO_FUNCIONAL",
+            "title": "Descripción de Grupo Funcional"
+          },
+          "Descripcion_de_Funcion": {
+            "labelfor": "Funcion",
+            "source": "DESC_FUNCION",
+            "title": "Descripción de Función"
+          },
+          "Grupo_Funcional": {
+            "source": "GPO_FUNCIONAL",
+            "title": "Grupo Funcional"
+          },
+          "Actividad_Institucional": {
+            "source": "ID_AI",
+            "title": "Actividad Institucional",
+            "parent": "Subfuncion"
+          }
+        },
+        "classificationType": "functional",
+        "dimensionType": "classification"
+      },
+      "activity": {
+        "primaryKey": [
+          "Modalidad_del_Programa_presupuestario",
+          "Programa_Presupuestario"
+        ],
+        "dimensionType": "activity",
+        "attributes": {
+          "Descripcion_de_la_modalidad_del_programa_presupuestario": {
+            "labelfor": "Modalidad_del_Programa_presupuestario",
+            "source": "DESC_MODALIDAD",
+            "title": "Descripción de la modalidad del programa presupuestario"
+          },
+          "Modalidad_del_Programa_presupuestario": {
+            "source": "ID_MODALIDAD",
+            "title": "Modalidad del Programa presupuestario"
+          },
+          "Programa_Presupuestario": {
+            "source": "ID_PP",
+            "title": "Programa Presupuestario",
+            "parent": "Modalidad_del_Programa_presupuestario"
+          },
+          "Descripcion_de_Programa_Presupuestario": {
+            "labelfor": "Programa_Presupuestario",
+            "source": "DESC_PP",
+            "title": "Descripción de Programa Presupuestario"
+          }
+        }
+      },
+      "budget-line-id": {
+        "primaryKey": [
+          "Clave_de_cartera"
+        ],
+        "dimensionType": "fact",
+        "attributes": {
+          "Clave_de_cartera": {
+            "source": "ID_CLAVE_CARTERA",
+            "title": "Clave de cartera"
+          }
+        }
+      },
+      "fin-source": {
+        "primaryKey": [
+          "Descripcion_de_Fuente_de_Financiamiento",
+          "Fuente_de_Finaciamiento"
+        ],
+        "dimensionType": "other",
+        "attributes": {
+          "Descripcion_de_Fuente_de_Financiamiento": {
+            "labelfor": "Fuente_de_Finaciamiento",
+            "source": "DESC_FF",
+            "title": "Descripción de Fuente de Financiamiento"
+          },
+          "Fuente_de_Finaciamiento": {
+            "source": "ID_FF",
+            "title": "Fuente de Finaciamiento"
+          }
+        }
+      },
+      "geo-source": {
+        "primaryKey": [
+          "Entidad_Federativa"
+        ],
+        "dimensionType": "location",
+        "attributes": {
+          "Descripcion_de_Entidad_Federativa": {
+            "labelfor": "Entidad_Federativa",
+            "source": "ENTIDAD_FEDERATIVA",
+            "title": "Descripción de Entidad Federativa"
+          },
+          "Entidad_Federativa": {
+            "source": "ID_ENTIDAD_FEDERATIVA",
+            "title": "Entidad Federativa"
+          }
+        }
+      },
+      "economic-classification": {
+        "primaryKey": [
+          "Capitulo",
+          "Concepto",
+          "Partida_Generica",
+          "Partida_Especifica"
+        ],
+        "attributes": {
+          "Capitulo": {
+            "source": "ID_CAPITULO",
+            "title": "Capítulo"
+          },
+          "Descripcion_de_Partida_Especifica": {
+            "labelfor": "Partida_Especifica",
+            "source": "DESC_PARTIDA_ESPECIFICA",
+            "title": "Descripción de Partida Específica"
+          },
+          "Concepto": {
+            "source": "ID_CONCEPTO",
+            "title": "Concepto",
+            "parent": "Capitulo"
+          },
+          "Descripcion_de_Capitulo": {
+            "labelfor": "Capitulo",
+            "source": "DESC_CAPITULO",
+            "title": "Descripción de Capitulo"
+          },
+          "Descripcion_de_Partida_Generica": {
+            "labelfor": "Partida_Generica",
+            "source": "DESC_PARTIDA_GENERICA",
+            "title": "Descripción de Partida Genérica"
+          },
+          "Descripcion_de_Concepto": {
+            "labelfor": "Concepto",
+            "source": "DESC_CONCEPTO",
+            "title": "Descripción de Concepto"
+          },
+          "Partida_Especifica": {
+            "source": "ID_PARTIDA_ESPECIFICA",
+            "title": "Partida Específica",
+            "parent": "Partida_Generica"
+          },
+          "Partida_Generica": {
+            "source": "ID_PARTIDA_GENERICA",
+            "title": "Partida Genérica",
+            "parent": "Concepto"
+          }
+        },
+        "classificationType": "economic",
+        "dimensionType": "classification"
+      },
+      "date": {
+        "primaryKey": [
+          "Ciclo"
+        ],
+        "dimensionType": "datetime",
+        "attributes": {
+          "Ciclo": {
+            "source": "CICLO",
+            "title": "Ciclo"
+          }
+        }
+      },
+      "expenditure-type": {
+        "primaryKey": [
+          "Descripcion_de_Tipo_de_Gasto",
+          "Tipo_de_Gasto"
+        ],
+        "dimensionType": "other",
+        "attributes": {
+          "Descripcion_de_Tipo_de_Gasto": {
+            "labelfor": "Tipo_de_Gasto",
+            "source": "DESC_TIPOGASTO",
+            "title": "Descripción de Tipo de Gasto"
+          },
+          "Tipo_de_Gasto": {
+            "source": "ID_TIPOGASTO",
+            "title": "Tipo de Gasto"
+          }
+        }
+      }
+    },
+    "measures": {
+      "Modificado": {
+        "direction": "expenditure",
+        "currency": "MXN",
+        "source": "MONTO_MODIFICADO",
+        "title": "Modificado",
+        "phase": "adjusted"
+      },
+      "Adefas": {
+        "direction": "expenditure",
+        "currency": "MXN",
+        "source": "MONTO_ADEFAS",
+        "title": "Adefas",
+        "phase": "executed"
+      },
+      "Pagado": {
+        "direction": "expenditure",
+        "currency": "MXN",
+        "source": "MONTO_PAGADO",
+        "title": "Pagado",
+        "phase": "executed"
+      },
+      "Aprobado": {
+        "direction": "expenditure",
+        "currency": "MXN",
+        "source": "MONTO_APROBADO",
+        "title": "Aprobado",
+        "phase": "approved"
+      },
+      "Ejercido": {
+        "direction": "expenditure",
+        "currency": "MXN",
+        "source": "MONTO_EJERCIDO",
+        "title": "Ejercido",
+        "phase": "executed"
+      },
+      "Ejercicio": {
+        "direction": "expenditure",
+        "currency": "MXN",
+        "source": "MONTO_EJERCICIO",
+        "title": "Ejercicio",
+        "phase": "executed"
+      },
+      "Devengado": {
+        "direction": "expenditure",
+        "currency": "MXN",
+        "source": "MONTO_DEVENGADO",
+        "title": "Devengado",
+        "phase": "approved"
+      }
+    }
+  },
+  "owner": "5df4a7b06a940c992d1c44525daff47b",
+  "fiscalPeriod": {
+    "start": "2008-01-01",
+    "end": "2016-12-31"
+  },
+  "name": "presupuesto-mexico-staging-dataset"
+      
+}

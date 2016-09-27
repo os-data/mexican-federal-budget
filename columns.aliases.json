@@ -9,10 +9,6 @@
     "ID_CAPITULO": [
         "Capitulo"
     ],
-    "DESC_REASIGNATION": [
-        "Descripción de Reasignacion",
-        "REASIGNACION_DESCRIPCION"
-    ],
     "GPO_FUNCIONAL": [
         "Grupo Funcional",
         "Finalidad",
@@ -23,20 +19,19 @@
         "Función",
         "FN"
     ],
-    "DESC_ENT_FED": [
+    "ENTIDAD_FEDERATIVA": [
+        "DESC_ENTIDAD_FEDERATIVA",
         "Descripción de Entidad Federativa",
         "Descripción de la entidad federativa",
         "ENTIDAD_FED_DESCRIPCION"
-    ],
-    "RA": [
-        "Reasignacion",
-        "RA"
     ],
     "ID_CONCEPTO": [
         "Objeto del Gasto",
         "Concepto"
     ],
-    "ENTIDAD": [
+    "ID_ENTIDAD_FEDERATIVA": [
+        "ENTIDA_FEDERATIVA",
+        "ENTIDA",
         "Entidad Federativa",
         "EF"
     ],
@@ -61,7 +56,8 @@
     "MONTO_PAGADO": [
         "Pagado"
     ],
-    "ID_PPI": [
+    "ID_CLAVE_CARTERA": [
+        "ID_PPI",
         "Clave de cartera",
         "CLAVE_CARTERA"
     ],
@@ -96,7 +92,7 @@
         "FF",
         "Fuente de Finaciamiento"
     ],
-    "PARTIDA_GENERICA": [
+    "ID_PARTIDA_GENERICA": [
         "Partida Genérica"
     ],
     "DESC_FF": [
@@ -117,7 +113,7 @@
         "Unidad Responsable",
         "UNIDAD"
     ],
-    "PARTIDA_ESPECIFICA": [
+    "ID_PARTIDA_ESPECIFICA": [
         "Partida Específica"
     ],
     "ID_TIPOGASTO": [
