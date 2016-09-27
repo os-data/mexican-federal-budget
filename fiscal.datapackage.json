@@ -154,7 +154,7 @@
           "DESC_PP": {
             "source": "DESC_PP",
             "title": "Descripción de Programa Presupuestario",
-            "labelfor": "PP"
+            "labelfor": "ID_PP"
           },
           "DESC_MODALIDAD": {
             "source": "DESC_MODALIDAD",
