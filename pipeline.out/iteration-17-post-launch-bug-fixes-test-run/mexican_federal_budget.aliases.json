@@ -1,0 +1,166 @@
+{
+    "DESC_AI": [
+        "Descripci\u00f3n de la Actividad Institucional",
+        "ACTIVIDAD_INST_DESCRIPCION",
+        "Descripci\u00f3n de Actividad Institucional"
+    ],
+    "ID_FUNCION": [
+        "Funci\u00f3n",
+        "FN"
+    ],
+    "DESC_FF": [
+        "Descripci\u00f3n de Fuente de Financiamiento",
+        "FUENTE_FINAN_DESCRIPCION"
+    ],
+    "DESC_FUNCION": [
+        "Descripci\u00f3n de Funci\u00f3n",
+        "FUNCIONL_DESCRIPCION"
+    ],
+    "ID_CLAVE_CARTERA": [
+        "ID_PPI",
+        "Clave de cartera",
+        "CLAVE_CARTERA"
+    ],
+    "MONTO_EJERCICIO": [
+        "Ejercicio"
+    ],
+    "MONTO_PAGADO": [
+        "Pagado"
+    ],
+    "DESC_GPO_FUNCIONAL": [
+        "Descripci\u00f3n de Grupo Funcional",
+        "Descripci\u00f3n de Finalidad",
+        "GRUPO_FUN_DESCRIPCION",
+        "Descripci\u00f3n de Grupo Funcional"
+    ],
+    "DESC_PARTIDA_ESPECIFICA": [
+        "Descripci\u00f3n de Partida Espec\u00edfica",
+        "Descripcion de Partida Espec\u00edfica"
+    ],
+    "DESC_CAPITULO": [
+        "Descripci\u00f3n de Capitulo"
+    ],
+    "MONTO_APROBADO": [
+        "Aprobado",
+        "PEF_2016",
+        "Importe Presupuesto de Egresos de la Federaci\u00f3n",
+        "Importe Presupuesto de Egresos de la Federaci\u00f3n (PEF)"
+    ],
+    "DESC_TIPOGASTO": [
+        "Descripci\u00f3n de Tipo de Gasto",
+        "TIPO_GASTO_DESCRIPCION"
+    ],
+    "MONTO_MODIFICADO": [
+        "Modificado"
+    ],
+    "MONTO_ADEFAS": [
+        "Adefas",
+        "ADEFAS"
+    ],
+    "ID_SUBFUNCION": [
+        "Subfunci\u00f3n",
+        "SF"
+    ],
+    "ID_PP": [
+        "PP",
+        "Programa Presupuestario"
+    ],
+    "ID_RAMO": [
+        "Ramo",
+        "RAMO"
+    ],
+    "MONTO_DEVENGADO": [
+        "Devengado"
+    ],
+    "ID_CAPITULO": [
+        "Capitulo"
+    ],
+    "DESC_SUBFUNCION": [
+        "Descripci\u00f3n de Subfunci\u00f3n",
+        "SUBFUNCIONL_DESCRIPCION",
+        "Descripci\u00f3n de subfunci\u00f3n"
+    ],
+    "DESC_CONCEPTO": [
+        "Descripci\u00f3n de Concepto",
+        "Descripci\u00f3n de Objeto del Gasto",
+        "CONCEPTO_DESCRIPCION"
+    ],
+    "ID_PARTIDA_ESPECIFICA": [
+        "Partida Espec\u00edfica"
+    ],
+    "DESC_MODALIDAD": [
+        "Descripci\u00f3n de la modalidad del programa presupuestario",
+        "MODALIDAD_DESCRIPCION",
+        "Descripci\u00f3n del Identificador del Programa Presupuestario",
+        "Descripci\u00f3n del Identificador de Programa Presupuestario"
+    ],
+    "DESC_UR": [
+        "Descripci\u00f3n de Unidad Responsable",
+        "UNIDAD_DESCRIPCION"
+    ],
+    "ID_TIPOGASTO": [
+        "TG",
+        "Tipo de Gasto"
+    ],
+    "ID_UR": [
+        "Unidad Responsable",
+        "UNIDAD"
+    ],
+    "ID_CONCEPTO": [
+        "Objeto del Gasto",
+        "Concepto"
+    ],
+    "GPO_FUNCIONAL": [
+        "Grupo Funcional",
+        "Finalidad",
+        "GF",
+        "Grupo Funcional"
+    ],
+    "ENTIDAD_FEDERATIVA": [
+        "DESC_ENTIDAD_FEDERATIVA",
+        "Descripci\u00f3n de Entidad Federativa",
+        "Descripci\u00f3n de la entidad federativa",
+        "ENTIDAD_FED_DESCRIPCION"
+    ],
+    "DESC_PARTIDA_GENERICA": [
+        "Descripci\u00f3n de Partida Gen\u00e9rica"
+    ],
+    "ID_FF": [
+        "Fuente de Financiamiento",
+        "FF",
+        "Fuente de Finaciamiento"
+    ],
+    "ID_ENTIDAD_FEDERATIVA": [
+        "ENTIDA_FEDERATIVA",
+        "ENTIDA",
+        "Entidad Federativa",
+        "EF"
+    ],
+    "MONTO_EJERCIDO": [
+        "Ejercido"
+    ],
+    "DESC_PP": [
+        "Descripci\u00f3n de Programa Presupuestario",
+        "PROGR_PRES_DESCRIPCION"
+    ],
+    "ID_AI": [
+        "Actividad Institucional",
+        "AI"
+    ],
+    "ID_PARTIDA_GENERICA": [
+        "Partida Gen\u00e9rica"
+    ],
+    "DESC_RAMO": [
+        "Descripci\u00f3n de Ramo",
+        "RAMO_DESCRIPCION"
+    ],
+    "CICLO": [
+        "Ciclo"
+    ],
+    "ID_MODALIDAD": [
+        "Modalidad del Programa presupuestario",
+        "MOD",
+        "Identificador de Programa Presupuestario",
+        "Identificador del Programa Presupuestario"
+    ]
+}

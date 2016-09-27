@@ -1,0 +1,81 @@
+Concept,Description,Backend Header
+Actividad Institucional,"Clave que identifica las acciones sustantivas o de apoyo que realizan los ejecutores de gasto con el fin de dar cumplimiento a los objetivos y metas contenidos en los programas, de conformidad con las atribuciones que les señala su respectiva ley orgánica o el ordenamiento jurídico que les es aplicable (3 dígitos).
+Esta información está disponible de 2008 a 2016.",ID_AI
+Adefas,"Los adeudos de ejercicios fiscales anteriores (ADEFAS) son los gastos devengados y no pagados al último día de cada ejercicio fiscal, derivados del ejercicio del Presupuesto de Egresos, incluido el gasto devengado de las dependencias cuya cuenta por liquidar correspondiente está pendiente de presentarse a la Tesorería, así como las cuentas por liquidar presentadas a ésta que quedaron pendientes de pago.
+Esta información está disponible para los años 2014 y 2015. ",MONTO_ADEFAS
+Aprobado,"Son las asignaciones presupuestarias anuales comprendidas en el Presupuesto de Egresos a nivel de clave presupuestaria en el caso de los ramos autónomos, administrativos y generales, y a nivel de los rubros de gasto que aparecen en las carátulas de flujo de efectivo para las entidades.
+Esta información está disponible de 2008 a 2016.",MONTO_APROBADO
+Capítulo,"Corresponde a la clave para el mayor nivel de agregación del Clasificador por Objeto del Gasto, que sirve para identificar conjuntos homogéneos y ordenados de bienes y servicios requeridos por las Entidades y Dependencias de todos los niveles de gobierno. En la clave del Clasificador por Objeto del Gasto, puede identificarse con el primer dígito de izquierda a derecha.
+Esta información está disponible de 2008 a 2016.",ID_CAPITULO
+Ciclo,"Determina el ciclo presupuestario de referencia.
+Esta información está disponible de 2008 a 2016.",CICLO
+Clave de cartera,"Clave que se asigna a un programa o proyecto de inversión una vez que obtiene su registro en la cartera de programas y proyectos de inversión, de conformidad con lo establecido en los artículos 34, fracción III, de la Ley Federal de Presupuesto y Responsabilidad Hacendaria, y 46 del Reglamento de la Ley Federal de Presupuesto y Responsabilidad Hacendaria.
+Esta información está disponible de 2012 a 2016.",ID_CLAVE_CARTERA
+Concepto,"Corresponde a la clave para el segundo nivel de agregación del Clasificador por Objeto del Gasto, que sirve para identificar, en cada Capítulo, los subconjuntos homogéneos y ordenados de bienes y servicios que requieren las Entidades y Dependencias de todos los niveles de gobierno. En la clave del Clasificador por Objeto del Gasto corresponde al segundo dígito de izquierda a derecha.
+Esta información está disponible de 2008 a 2016.",ID_CONCEPTO
+Descripción de Capitulo,"Es la descripción de la clave contenida en la columna “Capítulo”, que representa el conjunto homogéneo y ordenado de bienes y servicios requeridos por las dependencias y entidades de todos los niveles de gobierno, a que corresponde al mayor nivel de agregación del Clasificador por Objeto del Gasto.
+Esta información está disponible de 2008 a 2016.",DESC_CAPITULO
+Descripción de Concepto,"Es la descripción de la clave contenida en la columna “Concepto”, que representa el segundo nivel de agregación del Clasificador por Objeto del Gasto, que sirve para identificar, en cada Capítulo, los subconjuntos homogéneos y ordenados de bienes y servicios que requieren las Entidades y Dependencias de todos los niveles de gobierno. En la clave del Clasificador por Objeto del Gasto, corresponde al segundo dígito de izquierda a derecha.
+Esta información está disponible de 2008 a 2016. ",DESC_CONCEPTO
+Descripción de Fuente de Financiamiento,"Es la descripción de la clave contenida en la columna “Fuente de Financiamiento”, que corresponde a las asignaciones conforme al origen de su financiamiento. Incluye recursos fiscales, gasto financiado con recursos externos, contraparte nacional y recursos propios.  
+Esta información está disponible de 2008 a 2016.",DESC_FF
+Descripción de Función,"Descripción de la clave contenida en la columna “Función”, que se refiere al segundo nivel (o dígito) de la Clasificación Funcional del Gasto que permite identificar las acciones que realizan las Unidades Responsables para cumplir con los ordenamientos legales, de acuerdo con cada uno de los Grupos Funcionales.
+Esta información está disponible de 2008 a 2016.",DESC_FUNCION
+Descripción de Grupo Funcional,"Descripción de la clave contenida en la columna “Grupo Funcional”, que se refiere al primer nivel (o dígito) de la Clasificación Funcional del Gasto que permite identificar las actividades que realiza el Estado para cumplir con sus fines de: Desarrollo Social, Desarrollo Económico y Gobierno.
+Esta información está disponible de 2008 a 2016.",DESC_GPO_FUNCIONAL
+Descripción de Partida Específica,"Descripción de la clave contenida en la columna “Partida Específica” que sirve para identificar, al interior de la Partida Genérica, los bienes y servicios específicos que requieren las Entidades y Dependencias en cada uno de los niveles de gobierno.
+Esta información está disponible de 2011 a 2015.",DESC_PARTIDA_ESPECIFICA
+Descripción de Partida Genérica,"Descripción de la clave contenida en la columna “Partida Genérica” que sirve para identificar, por Concepto, bienes y servicios idénticos y armonizados a través de todos los niveles de gobierno.  
+Esta información está disponible de 2008 a 2015. ",DESC_PARTIDA_GENERICA
+Descripción de Programa Presupuestario,"Nombre del Programa Presupuestario federal de acuerdo con la estructura programática vigente para cada ciclo. Por programa presupuestario se entiende a la categoría que permite organizar, en forma representativa y homogénea, las asignaciones de recursos de los programas federales y del gasto federalizado a cargo de los ejecutores del mismo, para el cumplimiento de sus objetivos y metas.
+Esta información está disponible de 2008 a 2016. ",DESC_PP
+Descripción de Ramo,"Descripción del Ramo de acuerdo con la estructura programática del Presupuesto de Egresos de la Federación  vigente para cada ciclo (consulta los ramos en http://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Metadatos/Catalogos_Presupuestarios_2016.xlsx).
+Esta información está disponible de 2008 a 2016.",DESC_RAMO
+Descripción de Subfunción,"Descripción de la clave contenida en la columna “Subfunción” que se refiere a las actividades que realizan las dependencias y entidades al interior de una función. 
+Esta información está disponible de 2008 a 2016.",DESC_SUBFUNCION
+Descripción de Tipo de Gasto,"Descripción de la clave contenida en la columna “Tipo de Gasto” que relaciona las transacciones públicas que generan gastos con los grandes agregados de la clasificación económica presentándolos en Corriente; de Capital; Amortización de la deuda y disminución de pasivos; Pensiones y Jubilaciones, y Participaciones.
+Esta información está disponible de 2008 a 2016.",DESC_TIPOGASTO
+Descripción de Unidad Responsable,"Descripción de la clave contenida en la columna “Unidad Responsable”, que se refiere al ejecutor directo del gasto.
+Esta información está disponible de 2008 a 2016.",DESC_UR
+Descripción de Actividad Institucional,"Descripción de las acciones sustantivas o de apoyo que realizan los ejecutores de gasto con el fin de dar cumplimiento a los objetivos y metas contenidos en los programas, de conformidad con las atribuciones que les señala su respectiva ley orgánica o el ordenamiento jurídico que les es aplicable.
+Esta información está disponible de 2008 a 2016.",DESC_AI
+Descripción de Entidad Federativa,"Nombre de la entidad federativa, de acuerdo con el “Catálogo de entidades federativas, municipios y localidades” elaborado por el INEGI.
+Esta información está disponible de 2012 a 2016. ",ENTIDAD_FEDERATIVA
+Descripción de la modalidad del programa presupuestario,"Descripción de la clave contenida en la columna “Modalidad del Programa Presupuestario” que permite identificar a los programas según el tipo de servicios/productos que otorgan o su naturaleza específica: (consulta las modalidades en http://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Metadatos/Catalogos_Presupuestarios_2016.xlsx).
+Esta información está disponible de 2008 a 2016.",DESC_MODALIDAD
+Devengado,"El gasto devengado es el momento contable del gasto que refleja el reconocimiento de una obligación de pago a favor de terceros por la recepción de conformidad de bienes, servicios y obras oportunamente contratados; así como de las obligaciones que derivan de tratados, leyes, decretos, resoluciones y sentencias definitivas.
+Esta información está disponible de 2013 a 2015.",MONTO_DEVENGADO
+Ejercicio,"Monto que resulta de sumar al gasto pagado en un ejercicio fiscal, los adeudos de ese ejercicio pagados en el siguiente ejercicio fiscal, para el Gobierno Federal.
+Esta información está disponible en 2014 y 2015. 
+Las Entidades de Control Directo (50 – Instituto Mexicano del Seguro Social y 51 – Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado) y las Empresas Productivas del Estado (52 – Petróleos Mexicanos y 53 – Comisión Federal de Electricidad) no cuentan con ADEFAS.",MONTO_EJERCICIO
+Ejercido,"El gasto ejercido es el momento contable del gasto que refleja la emisión de una cuenta por liquidar certificada debidamente aprobada por la autoridad competente.
+Esta información está disponible de 2008 a 2013 y 2016. ",MONTO_EJERCIDO
+Entidad Federativa,"Clave de la entidad federativa, de acuerdo con el “Catálogo de entidades federativas, municipios y localidades” que elabora el Instituto Nacional de Estadística y Geografía (INEGI).
+Esta información está disponible de 2012 a 2016.",ID_ENTIDAD_FEDERATIVA
+Fuente de Finaciamiento,"Clave utilizada para identificar las asignaciones conforme al origen de su financiamiento en recursos fiscales, propios, o provenientes de crédito externo o donativo del exterior. 
+Esta información está disponible de 2008 a 2016. ",ID_FF
+Función,"Clave que corresponde al segundo nivel (o dígito) de la Clasificación Funcional del Gasto que permite identificar las acciones que realizan las Unidades Responsables para cumplir con los ordenamientos legales, de acuerdo con cada uno de los Grupos Funcionales.
+Esta información está disponible de 2008 a 2016.",ID_FUNCION
+Grupo Funcional,"Clave que corresponde al primer nivel (o dígito) de la Clasificación Funcional del Gasto que permite identificar las actividades que realiza el Estado para cumplir con sus fines de: Desarrollo Social, Desarrollo Económico y Gobierno.
+Esta información está disponible de 2008 a 2016.",GPO_FUNCIONAL
+Modalidad del Programa presupuestario,"Clave que permite identificar a los programas según el tipo de servicios/productos que otorgan o su naturaleza específica: (consulta las modalidades en http://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Metadatos/Catalogos_Presupuestarios_2016.xlsx).
+Esta información está disponible de 2008 a 2016. ",ID_MODALIDAD
+Modificado,"Momento contable del gasto que refleja la asignación presupuestaria que resulta de incorporar, en su caso, las adecuaciones presupuestarias al presupuesto aprobado.
+Esta información está disponible para los años 2014 y 2015.",MONTO_MODIFICADO
+Pagado,"Momento contable del gasto que refleja la cancelación total o parcial de las obligaciones de pago, que se concreta mediante el desembolso de efectivo o cualquier otro medio de pago. 
+Esta información está disponible de 2014 a 2016.",MONTO_PAGADO
+Partida Específica,"Clave de cinco dígitos del Clasificador por Objeto del Gasto. Sirve para identificar, al interior de la Partida Genérica, los bienes y servicios específicos que requieren las Entidades y Dependencias en cada uno de los niveles de gobierno. 
+Esta información está disponible de 2011 a 2015.",ID_PARTIDA_ESPECIFICA
+Partida Genérica,"Clave del Clasificador por Objeto del Gasto. Sirve para identificar, por Concepto, bienes y servicios idénticos y armonizados a través de todos los niveles de gobierno. 
+Esta información está disponible de 2008 a 2015. De 2008 a 2010 la Partida Genérica es una clave de 4 dígitos, mientras de 2011 a 2015 es una clave de 3 dígitos.",ID_PARTIDA_GENERICA
+Programa Presupuestario,"Clave asignada a cada programa presupuestario, cuyos dígitos se asignan de manera consecutiva al interior de la modalidad de que se trate. Por programa presupuestario se entiende a la categoría que permite organizar, en forma representativa y homogénea, las asignaciones de recursos de los programas federales y del gasto federalizado a cargo de los ejecutores del mismo, para el cumplimiento de sus objetivos y metas.
+Esta información está disponible de 2008 a 2016. ",ID_PP
+RAMO,"Clave del Ramo de acuerdo con la estructura programática del Presupuesto de Egresos de la Federación vigente para cada ciclo (consulta los ramos en http://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Metadatos/Catalogos_Presupuestarios_2016.xlsx).
+Esta información está disponible de 2008 a 2016. 
+De 2008 a 2012 no incluye los ramos relativos a Entidades de Control Directo (50 – Instituto Mexicano del Seguro Social y 51 – Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado) y Empresas Productivas del Estado (52 – Petróleos Mexicanos y 53 – Comisión Federal de Electricidad) ya que no se cuenta con la información consolidada para dichos años. ",ID_RAMO
+Subfunción,"Clave que corresponde al tercer nivel (o dígito) de la clasificación funcional del gasto que identifica en forma más precisa las actividades que realizan las dependencias y entidades al interior de una función. 
+Esta información está disponible de 2008 a 2016. ",ID_SUBFUNCION
+Tipo de Gasto,"Clave que sirve para relacionar las transacciones públicas que generan gastos con los grandes agregados de la clasificación económica presentándolos en Corriente; de Capital; Amortización de la deuda y disminución de pasivos; Pensiones y Jubilaciones; y Participaciones.
+Esta información está disponible de 2008 a 2016. ",ID_TIPOGASTO
+Unidad Responsable,"Clave para identificar de manera única a cada dependencia, institución, entidad o empresa productiva del estado, que ejecuta directamente el gasto.
+Esta información está disponible de 2008 a 2016. ",ID_UR
