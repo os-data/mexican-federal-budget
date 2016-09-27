@@ -764,13 +764,13 @@
       },
       "name": "presupuesto-mexico-2008-2016",
       "format": "csv",
-      "path": "mexican_federal_budget.csv",
+      "path": "mexican_federal_budget_sample.csv",
       "encoding": "utf-8"
     }
   ],
-  "name": "presupuesto-mexico-staging-dataset",
+  "name": "presupuesto-mexico-19",
   "regionCode": "na",
   "countryCode": "MX",
   "owner": "5df4a7b06a940c992d1c44525daff47b",
-  "title": "Presupuesto México 2008-2016"
+  "title": "Presupuesto México 2008-2016 100,000 row sample"
 }
