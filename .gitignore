@@ -8,3 +8,4 @@ samples/
 !objeto_del_gasto.catalog
 .~lock.*
 .idea/
+!columns.descriptions.csv
