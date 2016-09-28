@@ -1,5 +1,5 @@
 {
-  "name": "presupuesto-mx-default",
+  "name": "presupuesto-mexico-20",
   "@context": "http://schemas.frictionlessdata.io/fiscal-data-package.json",
   "title": "Presupuesto M\u00e9xico 2008-2016",
   "author": "loic jounot <loic.jounot@gmail.com>",
